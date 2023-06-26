@@ -12,7 +12,7 @@
 body {
   background: #ffffff;
   color: #898989;
-  font-family: 'Poppins', helvetica;
+  font-family:  "Source Sans Pro", Helvetica, sans-serif;
   font-size: 15px;
   font-weight: 300;
   line-height: 20px;
@@ -101,11 +101,12 @@ p {
 }
 
 .btn {
-  background: #333;
+  background: #ff0000;
   border: medium none;
   border-radius: 0;
-  color: #fff;
+  color: #000000;
   font-size: 12px;
+  font-weight: 900;
   height: 50px;
   line-height: 50px;
   padding: 0 30px;
@@ -113,7 +114,7 @@ p {
 }
 
 .btn:hover, .btn:focus {
-  color: #fff;
+  color: #ffffff;
 }
 
 .padDiv {
@@ -178,14 +179,14 @@ p {
 
 nav {
   position: fixed;
-  background: #fff;
+  background: #ffffff;
   z-index: 1000;
   width: 100%;
   padding: 20px;
   display: none;
-  -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
-  -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
-  box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
+  -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0);
 }
 
 .nav-menu {
@@ -243,6 +244,7 @@ nav ul li a {
  background: url("../images/home-bg.jpg") repeat scroll center center / cover;
   height: 100vh;
   width: 100%;
+ 
 }
 
 
@@ -319,6 +321,7 @@ nav ul li a {
   max-width: 80%;
   margin-bottom: 0;
   text-align: left;
+  font-weight: 500;
   color: #fff;
 }
 
@@ -350,6 +353,7 @@ nav ul li a {
   margin: 0;
   font-size: 13px;
   line-height: 22px;
+  font-weight: 500;
   color: #fff;
 }
 
@@ -394,7 +398,12 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 /*  Portfolio
 /*-----------------------------------------------------------------------------------*/
+.underimg{
 
+font-weight: 800;
+color: #000;
+
+}
 #portfolio {
   position: relative;
   padding-bottom: 50px;
@@ -413,7 +422,7 @@ nav ul li a {
   margin: 0 40px 0 0;
   float: left;
   font-size: 14px;
-  color: #999999;
+  color: #a1a1a1;
   line-height: 16px;
   cursor: pointer;
   font-family: 'Poppins', helvetica;
@@ -428,7 +437,7 @@ nav ul li a {
 }
 
 #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active  {
-  color: #b8a07e;
+  color: #000000;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
@@ -455,68 +464,8 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 /*  Journal
 /*-----------------------------------------------------------------------------------*/
-/*
-#journal,  #journal-blog {
-  height: auto;
-  width: 100%;
-  background: #000000;
-  padding-bottom: 60px;
-  position: relative;
-}
 
-#journal-blog {
-  background: #fff;
-  padding-bottom: 30px;
-}
 
-#journal .journal-block {
-  display: inline-block;
-  height: auto;
-  width: 100%;
-}
-
-#journal .journal-block .journal-info {
-  position: relative;
-}
-
-.journal-block .journal-info img {
-  max-width: 100%;
-}
-
-.journal-block .journal-info .journal-txt {
-  padding: 25px 0px;
-  position: relative;
-}
-
-.journal-block .journal-info .journal-txt h4 a {
-  display: block;
-  font-size: 19px;
-  line-height: 24px;
-  margin: 0 0 13px 0;
-  font-weight: 500;
-  color: #ffffff;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
-}
-
-.journal-block .journal-info .journal-txt h4 a:hover {
-  color: #b8a07e;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
-}
-
-.journal-block .journal-info .journal-txt p {
-  margin: 0;
-  font-size: 14px;
-  line-height: 24px;
-}
-*/
 /*-----------------------------------------------------------------------------------*/
 /*  Contact
 /*-----------------------------------------------------------------------------------*/
@@ -530,6 +479,7 @@ nav ul li a {
   list-style: none;
   margin: 0;
   padding: 0;
+  font-weight: 500;
 }
 
 .contact-details li {
@@ -601,7 +551,7 @@ nav ul li a {
 
 #footer .socials-media ul li a {
   font-size: 24px;
-  color: #999;
+  color: #000000;
   letter-spacing: 0.1em;
   font-weight: 500;
   background: transparent;
@@ -614,7 +564,7 @@ nav ul li a {
 }
 
 #footer .socials-media ul li a:hover {
-  color: #b8a07e;
+  color: #FFEB85;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
@@ -632,4 +582,5 @@ nav ul li a {
 
 .credits {
   font-size: 13px;
+  font-weight: 400;
 }
