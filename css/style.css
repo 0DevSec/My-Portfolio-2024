@@ -249,7 +249,7 @@ nav ul li a {
 
 
 #header .header-content {
-  height: 44vh ;
+  height: 169vh ;
   text-align: left;
   width: 100%;
   display: flex;
@@ -258,11 +258,11 @@ nav ul li a {
 }
 
 .header-content h1 {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
-  color: #000000;
+  color: #ff0000;
 }
 
 .header-content p {
@@ -292,7 +292,7 @@ nav ul li a {
 #about {
   width: 100%;
   height: auto;
-  background: #000000;
+  background: #ffffff;
   padding-top: 190px;
 }
 
@@ -314,7 +314,7 @@ nav ul li a {
   font-family: 'Playfair Display', serif;
   font-size: 28px;
   text-align: left;
-  color: #ffffff;
+  color: #000000;
 }
 
 #about .about-descr .separator {
@@ -322,7 +322,7 @@ nav ul li a {
   margin-bottom: 0;
   text-align: left;
   font-weight: 500;
-  color: #fff;
+  color: #000000;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -330,7 +330,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #services {
-  background: #000000;
+  background: #ffffff;
   position: relative;
   padding-bottom: 80px;
 }
@@ -342,7 +342,7 @@ nav ul li a {
   margin: 10px 0;
   position: relative;
   font-size: 13px;
-  color: #FFEB85;
+  color: #000000;
   letter-spacing: 0.1em;
   font-weight: 500;
   text-transform: uppercase;
@@ -354,12 +354,12 @@ nav ul li a {
   font-size: 13px;
   line-height: 22px;
   font-weight: 500;
-  color: #fff;
+  color: #000000;
 }
 
 .services-block i  {
   font-size: 44px;
-  color: #FFEB85;
+  color: #ff0000;
   line-height: 44px;
   
 }
@@ -382,12 +382,12 @@ nav ul li a {
   border-radius: 50%;
   border: 0;
   padding: 0 !important;
-  background-color: #ffffff;
+  background-color: #000000;
   cursor: pointer;
 }
 
 .services-carousel .owl-dot.active {
-  background-color: #FFEB85;
+  background-color: #000000;
 }
 
 .owl-nav {
