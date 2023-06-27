@@ -79,10 +79,11 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Ahmed.","Designer.", "Freelancer." , "@0DevSec", "@0dev.sec",],
-      typeSpeed: 100,
+      strings: ["Ahmed.","Designer.", "Freelancer." , "@0DevSec", "@0dev.sec" ],
+      typeSpeed: 115,
       loop: true,
     });
+    
   });
 
 
