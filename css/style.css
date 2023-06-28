@@ -250,6 +250,8 @@ nav ul li a {
 }
 
 
+
+
 #header .header-content {
   height: 100vh ;
   text-align: left;
@@ -257,6 +259,8 @@ nav ul li a {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding-top: 100px;
+  
 }
 
 .header-content h1 {
@@ -304,7 +308,7 @@ border-radius: 9px;
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #ff8066;
+  border: 20px solid #c34a36;
   border-radius: 15%;
 
 }
@@ -470,7 +474,7 @@ color: #ffffff;
 .portfolio-thumbnail img {
   max-width: 100%;
   border-radius: 10%;
-  border: 10px solid #ff8066;
+  border: 10px solid #b0a8b9;
 }
 
 /*-----------------------------------------------------------------------------------*/
