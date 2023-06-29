@@ -390,6 +390,7 @@ border-radius: 9px;
   background: #ffffff;
   position: relative;
   padding-bottom: 80px;
+  
 }
 
 .owl-item {
@@ -429,6 +430,7 @@ border-radius: 9px;
 .services-carousel .owl-dots {
   margin-top: 5px;
   text-align: center;
+  
 }
 
 .services-carousel .owl-dot {

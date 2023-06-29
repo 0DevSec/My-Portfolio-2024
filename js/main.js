@@ -94,13 +94,14 @@ $(document).ready(function() {
 
 
   $('.services-carousel').owlCarousel({
-      autoplay: true,
+     /*  */autoplay: true,
       loop: true,
-      margin: 20,
+     
       dots: true,
-      nav: false,
+      margin: 20 ,
+      nav: false, 
       responsiveClass: true,
-      responsive: { 0: { items: 1 }, 768: { items: 2 }, 900: { items: 4 } }
+      responsive: { 0: { items: 1 }, 768: { items: 2 } }
     });
 // ========================================================================= //
   //  scroll smooth
