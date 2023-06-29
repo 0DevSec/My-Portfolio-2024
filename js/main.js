@@ -70,6 +70,7 @@ $(document).ready(function() {
 
   $('.responsive').on('click', function(e) {
     $('.nav-menu').slideToggle();
+    
   });
 
   // ========================================================================= //

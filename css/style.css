@@ -231,11 +231,11 @@ nav ul li a {
   padding: 2px 0 0 0;
   position: relative;
   display: block;
-  font-size: 14px;
+  font-size: 15px;
   color: #ffffff;
   font-family: 'Poppins', helvetica;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 15px;
   text-transform: uppercase;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -253,6 +253,7 @@ nav ul li a {
 .responsive {
   display: none;
   font-size: 23px;
+  
 }
 
 .active {
@@ -347,7 +348,7 @@ border-radius: 9px;
   width: 100%;
   height: auto;
   background: #ffffff;
-  padding-top: 190px;
+  padding-top: 130px;
 }
 
 #about .div-img-bg {
