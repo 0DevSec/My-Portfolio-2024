@@ -182,7 +182,7 @@ p {
 
 
 /*  Skew Scrolling Effect
-/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------
 section {
   
   
@@ -190,7 +190,7 @@ section {
   will-change: transform;
  
 }
-
+*/
 
 
   
@@ -274,7 +274,7 @@ nav ul li a {
 .arrow2:hover{color: #000;}
 .img-container {
   position: absolute;
-  top: 5%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
   animation: animate .7s infinite ease-in-out;
