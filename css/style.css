@@ -283,7 +283,7 @@ nav ul li a {
 .arrow2:hover{color: #000;}
 .img-container {
   position: absolute;
-  top: 7%;
+  top: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
   animation: animate .7s infinite ease-in-out;
