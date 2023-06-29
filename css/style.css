@@ -186,7 +186,7 @@ p {
 section {
   
   
-  transition: transform 0.50s;
+  transition: transform 0.80s;
   will-change: transform;
   
   div {
