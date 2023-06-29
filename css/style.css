@@ -8,7 +8,7 @@
 
 /*  General Styling
 /*-----------------------------------------------------------------------------------*/
-
+html{ scroll-behavior: smooth;}
 body {
   background: #ffffff;
   color: #898989;
