@@ -43,6 +43,7 @@ h2 {
   font-weight: 600;
 }
 
+
 h4 {
   color: #292929;
   font-size: 14px;
@@ -253,7 +254,7 @@ nav ul li a {
 .responsive {
   display: none;
   font-size: 23px;
-  
+
 }
 
 .active {
