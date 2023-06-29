@@ -277,7 +277,7 @@ nav ul li a {
   top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
-  animation: animate .7s infinite ease-in-out;
+  animation: animate  infinite ease-in-out;
 }
 
 .img-container .main-img {
