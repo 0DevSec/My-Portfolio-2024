@@ -2737,6 +2737,28 @@ color: #000000;
 		}
 
 
+/*  Skew Scrolling Effect
+/*-----------------------------------------------------------------------------------*/
+section {
+  
+  
+	transition: transform 0.50s;
+	will-change: transform;
+	
+	div {
+	  
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  font-size: 6vw;
+	  
+	 
+	}
+  }
+ 
+
+
+
 
 /* Wrapper */
 

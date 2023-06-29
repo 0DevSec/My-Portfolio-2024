@@ -31,6 +31,13 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+
+
+
+
+
+
+
 h2 {
   color: #c34a36;
   font-weight: 600;
@@ -173,6 +180,29 @@ p {
   margin-bottom: 30px;
 }
 
+
+/*  Skew Scrolling Effect
+/*-----------------------------------------------------------------------------------*/
+section {
+  
+  
+  transition: transform 0.50s;
+  will-change: transform;
+  
+  div {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6vw;
+    
+   
+  }
+}
+
+
+
+  
 /*-----------------------------------------------------------------------------------*/
 /*  Navbar Top
 /*-----------------------------------------------------------------------------------*/
@@ -248,8 +278,29 @@ nav ul li a {
   width: 100%;
  
 }
+.arrow{text-align: left; color: #ffffff; font-size: 55px; }
+.arrow2{text-align: center; color: #ffffff; font-size: 55px; margin-top: 100px;}
+.arrow2:hover{color: #000;}
+.img-container {
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: animate .7s infinite ease-in-out;
+}
 
+.img-container .main-img {
+  width: 350px;
+}
 
+@keyframes animate {
+  50% {
+      transform: translate(-50%, -48%);
+  }
+  100% {
+      transform: translate(-50%, -50%);
+  }
+}
 
 
 #header .header-content {
@@ -287,12 +338,14 @@ border-radius: 9px;
 
 .header-content .list-social li {
   float:left;
-  margin-right: 20px;
+  margin-right: 25px;
+  margin-top: 20px;
 }
 
 .header-content .list-social li i {
   color: #000000;
   font-size: 17px;
+  
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -417,6 +470,15 @@ font-weight: 800;
 color: #ffffff;
 
 }
+.underimg:hover{
+
+  color: #ff8066;
+ 
+
+}
+
+
+
 #portfolio {
   position: relative;
   padding-bottom: 50px;
@@ -450,6 +512,9 @@ color: #ffffff;
   transition: all 0.5s ease-in-out 0s;
 }
 
+
+
+
 #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active  {
   color: #ff8066;
   -moz-transition: all 0.5s ease-in-out 0s;
@@ -473,9 +538,192 @@ color: #ffffff;
 
 .portfolio-thumbnail img {
   max-width: 100%;
-  border-radius: 10%;
+  border-radius: 14%;
   border: 10px solid #b0a8b9;
+
+  
 }
+/*-----------------------------------------------------------------------------------*/
+/* cards style start here*/
+/*-----------------------------------------------------------------------------------*/
+.card{
+ font-size: 24px; font-weight: 400;
+ color: #ffffff; 
+  background-color: #c34a36;
+  border-radius: 40px;
+  margin-right: 170px; 
+  margin-left: 10px;
+  margin-top: 5px;
+  padding: 20px;
+   margin-bottom: 10px;
+   
+
+}.card:hover{color: #000;}
+
+.grid {
+	position: relative;
+	margin: 0 auto;
+	padding: 0em 0 4em;
+	max-width: 1000px;
+	list-style: none;
+	text-align: center;
+}
+
+/* Common style */
+.grid figure {
+	
+	
+	overflow: hidden;
+	color: #000;
+	background: #ffffff;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+
+.grid figure figcaption {
+	padding: 2em;
+	color: #000000;
+  
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption > a {
+	color: #000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.grid figure h2 {
+	word-spacing: -0.15em;
+	font-weight: 500;
+  color: #000;
+  background-color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+
+}
+
+.grid figure h2 span {
+	font-weight: 800;
+}
+
+.grid figure h2,
+.grid figure p {
+	margin: 0;
+}
+
+.grid figure p {
+	letter-spacing: 1px;
+  text-align: center;
+	font-size: 68.5%;
+  font-weight: 700;
+  background-color: #000000b9;
+  
+  color: #ffffff;
+   margin-top: 30px;
+   border-radius: 5px;
+
+}
+
+/* Individual effects */
+/*---------------*/
+/***** Sarah *****/
+/*---------------*/
+
+figure.effect-sarah {
+	background: #b0a8b9;
+  
+  border-radius: 35px;
+}
+
+figure.effect-sarah img {
+	
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0,3px,0);
+  
+	transform: translate3d(0px,20,0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+figure.effect-sarah:hover img {
+  
+	opacity: 0.4;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-sarah figcaption {
+	text-align: left;
+}
+
+figure.effect-sarah h2 {
+	position: relative;
+	overflow: hidden;
+	padding: 0.1em 0;
+}
+
+figure.effect-sarah h2::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background: #c34a36;
+	content: '';
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(-100%,0,0);
+	transform: translate3d(-100%,0,0);
+}
+
+figure.effect-sarah:hover h2::after {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-sarah p {
+	padding: 1em 0;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(100%,0,0);
+	transform: translate3d(100%,0,0);
+}
+
+figure.effect-sarah:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/* cards style start here*/
+/*-----------------------------------------------------------------------------------*/
 
 /*-----------------------------------------------------------------------------------*/
 /*  Journal
