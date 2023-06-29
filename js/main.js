@@ -168,7 +168,7 @@ let currentPos = window.pageYOffset;
 const update = () => {
 	const newPos = window.pageYOffset;
 	const diff = newPos - currentPos;
-	const speed = diff * 0.06;
+	const speed = diff * 0.03;
 	
 	section.style.transform = `skewY(${ speed }deg)`;
 	
