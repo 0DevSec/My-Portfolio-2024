@@ -41,6 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
   color: #A6A402;
   font-weight: 600;
+  
 }
 
 
@@ -137,7 +138,7 @@ p {
 .section-title h2 {
   font-size: 25px;
   letter-spacing: 2px;
-  text-transform: uppercase;
+ 
 }
 
 .form-control {
@@ -181,6 +182,10 @@ p {
 
 .mb-30 {
   margin-bottom: 30px;
+  background-color: #FDFA39;
+  border: 2px solid #FDFA39;
+  border-radius: 5px;
+  color: #24221F;
 }
 
 
@@ -372,7 +377,8 @@ border-radius: 9px;
 }
 
 #about .about-descr .p-heading {
-  font-family: 'Playfair Display', serif;
+  font-family:  helvetica;
+  font-weight: 400;
   font-size: 28px;
   text-align: left;
   color: #ffffff;
@@ -384,6 +390,7 @@ border-radius: 9px;
   text-align: left;
   font-weight: 500;
   color: #ffffff;
+  font-size: medium;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -445,7 +452,7 @@ border-radius: 9px;
   border-radius: 50%;
   border: 0;
   padding: 0 !important;
-  background-color: #ffffff;
+  background-color: #53524C;
   cursor: pointer;
 }
 
@@ -523,8 +530,9 @@ color: #ffffff;
 
 #portfolio .portfolio-container {
   display: inline-block;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   width: 100%;
+  
 }
 
 .portfolio-thumbnail {

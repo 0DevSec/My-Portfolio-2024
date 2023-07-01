@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+/* jQuery(document).ready(function($) {
   "use strict";
 
   //Contact
@@ -94,25 +94,59 @@ jQuery(document).ready(function($) {
     if( ! action ) {
       action = 'contactform/contactform.php';
     }
-    $.ajax({
-      type: "POST",
-      url: action,
-      data: str,
-      success: function(msg) {
-        // alert(msg);
-        if (msg == 'OK') {
-          $("#sendmessage").addClass("show");
-          $("#errormessage").removeClass("show");
-          $('.contactForm').find("input, textarea").val("");
-        } else {
-          $("#sendmessage").removeClass("show");
-          $("#errormessage").addClass("show");
-          $('#errormessage').html(msg);
-        }
+ */
 
-      }
+
+
+    $(function() {
+
+      // Get the form.
+      var form = $('.contactForm');
+    
+      // Get the messages div.
+      var formMessages = $('.form-group');
+    
+      // Set up an event listener for the contact form.
+      $(form).submit(function(e) {
+        // Stop the browser from submitting the form.
+        e.preventDefault();
+    
+        // Serialize the form data.
+        var formData = $(form).serialize();
+    
+        // Submit the form using AJAX.
+        $.ajax({
+          type: 'POST',
+          url: $(form).attr('action'),
+          data: formData
+        })
+        .done(function(response) {
+          // Make sure that the formMessages div has the 'success' class.
+          $(formMessages).removeClass('error');
+          $(formMessages).addClass('success');
+    
+          // Set the message text.
+          $(formMessages).text(response);
+    
+          // Clear the form.
+          $('#contact-form input,#contact-form textarea').val('');
+        })
+        .fail(function(data) {
+          // Make sure that the formMessages div has the 'error' class.
+          $(formMessages).removeClass('success');
+          $(formMessages).addClass('error');
+    
+          // Set the message text.
+          if (data.responseText !== '') {
+            $(formMessages).text(data.responseText);
+          } else {
+            $(formMessages).text('Oops! An error occured and your message could not be sent.');
+          }
+        });
+      });
+    
     });
-    return false;
-  });
+   
+  
 
-});
+
