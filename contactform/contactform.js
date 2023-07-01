@@ -100,29 +100,25 @@ jQuery(document).ready(function($) {
 			url: $(form).attr('action'),
 			data: formData
 		})
-		.done(function(response) {
-			// Make sure that the formMessages div has the 'success' class.
-			$(formMessages).removeClass('error');
-			$(formMessages).addClass('success');
-
-			// Set the message text.
-			$(formMessages).text(response);
-
-			// Clear the form.
-			$('#contact-form input,#contact-form textarea').val('');
-		})
-		.fail(function(data) {
-			// Make sure that the formMessages div has the 'error' class.
-			$(formMessages).removeClass('success');
-			$(formMessages).addClass('error');
-
-			// Set the message text.
-			if (data.responseText !== '') {
-				$(formMessages).text(data.responseText);
-			} else {
-				$(formMessages).text('Oops! An error occured and your message could not be sent.');
-			}
-		});
+		const handleSubmit = (event) => {
+      event.preventDefault();
+    
+      const myForm = event.target;
+      const formData = new FormData(myForm);
+      
+      fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(formData).toString(),
+      })
+        .then(() => console.log("Form successfully submitted"))
+        .catch((error) => alert(error));
+    };
+    
+    document
+      .querySelector("form")
+      .addEventListener("submit", handleSubmit);
+    
     return false;
   });
 
