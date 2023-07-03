@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 h2 {
-  color: #A6A402;
+  color: #FDFA39;
   font-weight: 600;
   
 }
@@ -320,7 +320,7 @@ nav ul li a {
   margin-bottom: 10px;
   text-transform: uppercase;
   color: #000000;
-  border: 2px solid #ffffff;
+  border: 2px solid #000000;
 background-color: #ffffff00;
 border-radius: 9px;
    
@@ -361,8 +361,8 @@ border-radius: 9px;
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #A6A402;
-  border-radius: 15%;
+  border: 20px solid #FDFA39;
+  border-radius: 1%;
 
 }
 
@@ -373,7 +373,7 @@ border-radius: 9px;
   margin-left: 40px;
   height: 400px;
   object-fit: cover;
-  border-radius: 11%;
+  border-radius: 1%;
 }
 
 #about .about-descr .p-heading {
@@ -559,7 +559,7 @@ color: #ffffff;
   
   margin-right: 145px; 
   margin-left: 10px;
-  margin-top: 9px;
+  margin-top: 13px;
   padding: 20px;
    margin-bottom: 10px;
    
@@ -660,7 +660,7 @@ color: #ffffff;
 
 figure.effect-sarah {
 	background: #24221F;
-  padding-bottom: 5%;
+  padding-bottom: 3%;
   border-radius: 35px;
 }
 
