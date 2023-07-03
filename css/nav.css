@@ -129,8 +129,9 @@ a:hover {
 }
 
 a:hover, a:focus {
-  color: #ff8066;
-  text-decoration: underline;
+  color: #FDFA39;
+
+  text-decoration: none;
 }
 
 nav ul li a {
@@ -148,6 +149,7 @@ nav ul li a {
   -o-transition: all 0.5s ease-in-out 0s;
   -webkit-transition: all 0.5s ease-in-out 0s;
   transition: all 0.5s ease-in-out 0s;
+  
 }
 
 
@@ -163,7 +165,7 @@ nav ul li a {
   
   nav {
     position: fixed;
-    background: #4b4453;
+    background: #24221F;
     z-index: 1000;
     width: 100%;
     padding: 20px;
@@ -171,6 +173,7 @@ nav ul li a {
     -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0);
     -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0);
     box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0);
+    
   }
   
   .nav-menu {
@@ -178,6 +181,7 @@ nav ul li a {
     line-height: 32px;
     margin-bottom: 0;
     padding-top: 16px;
+    
   }
   
   nav ul li {
@@ -186,6 +190,7 @@ nav ul li a {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     margin-left: 40px;
+    
   }
   
   nav ul li a {
@@ -193,13 +198,14 @@ nav ul li a {
     position: relative;
     display: block;
     font-size: 14px;
-    color: #ffffff;
+    color: #A6A402;
     font-family: 'Poppins', helvetica;
     font-weight: 500;
     line-height: 16px;
     text-transform: uppercase;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    
   }
   
   .logo {
