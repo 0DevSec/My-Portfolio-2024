@@ -33,7 +33,13 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-
+h1 {
+  color: #FDFA39;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 27px;
+  
+}
 
 
 
@@ -41,7 +47,8 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
   color: #FDFA39;
   font-weight: 600;
-  
+  text-transform: uppercase;
+  font-size: 27px;
 }
 
 
@@ -94,7 +101,7 @@ nav ul li a {
 p {
   margin: 25px 0;
   padding: 0;
-  font-size: 15px;
+  font-size: 22px;
   color: #ffffff;
   line-height: 28px;
 }
@@ -184,8 +191,9 @@ p {
   margin-bottom: 30px;
   background-color: #FDFA39;
   border: 2px solid #FDFA39;
-  border-radius: 5px;
+  border-radius: 1px;
   color: #24221F;
+  font-size: 29px;
 }
 
 
@@ -322,7 +330,7 @@ nav ul li a {
   color: #000000;
   border: 2px solid #000000;
 background-color: #ffffff00;
-border-radius: 9px;
+border-radius: 2px;
    
 }
 
@@ -543,7 +551,7 @@ color: #ffffff;
 
 .portfolio-thumbnail img {
   max-width: 100%;
-  border-radius: 14%;
+  border-radius: 1%;
   border: 10px solid #24221F;
 
   
@@ -552,10 +560,10 @@ color: #ffffff;
 /* cards style start here*/
 /*-----------------------------------------------------------------------------------*/
 .card{
- font-size: 24px; font-weight: 400;
+ font-size: 20px; font-weight: 400;
  color: #A6A402; 
   background-color: #33312D;
-  border-radius: 40px;
+  border-radius: 10px;
   
   margin-right: 145px; 
   margin-left: 10px;
@@ -626,7 +634,7 @@ color: #ffffff;
 	font-weight: 500;
   color: #000;
   background-color: #CCC902;
-  border-radius: 10px;
+  border-radius: 3px;
   text-align: center;
 
 }
@@ -649,7 +657,7 @@ color: #ffffff;
   
   color: #ffffff;
    margin-top: 30px;
-   border-radius: 5px;
+   border-radius: 2px;
 
 }
 
@@ -661,7 +669,7 @@ color: #ffffff;
 figure.effect-sarah {
 	background: #24221F;
   padding-bottom: 3%;
-  border-radius: 35px;
+  border-radius: 1%;
 }
 
 figure.effect-sarah img {
