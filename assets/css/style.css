@@ -392,7 +392,7 @@ p {
 .mobile-nav-toggle.bi-x {
   color: #FDFA39;
   font-size: 5em;
-  padding-top: 7em;
+  padding-top: 3em;
 }
 
 @media (max-width: 991px) {
