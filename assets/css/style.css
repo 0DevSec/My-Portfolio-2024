@@ -6,13 +6,26 @@
 * License: https://bootstrapmade.com/license/
 */
 
+@font-face {
+  font-family: 'Helvetica';
+  src: url('/Font/helvetica-compressed-5871d14b6903a.otf'), url('/Font/helvetica-compressed-5871d14b6903a.otf') format('truetype'), url('/Font/helvetica-compressed-5871d14b6903a.otf') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helveticaa';
+  src: url('/Font/Helvetica.ttf'), url('/Font/Helvetica.ttf') format('truetype'), url('/Font/Helvetica.ttf') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
   background: #53524C;
   color: #ffffff;
-  font-family: "Poppins", helvetica;
+  font-family: Helveticaa ;
   font-size: 15px;
   font-weight: 300;
   line-height: 20px;
@@ -30,22 +43,24 @@ h4,
 h5,
 h6 {
   margin: 0;
+  font-family: Helvetica;
+  letter-spacing: 0.1em;
 }
 
 h1 {
   color: #FDFA39;
-  font-weight: 600;
+
 }
 
 
 h2 {
   color: #FDFA39;
-  font-weight: 600;
+  
 }
 h3{
 
   color: #FDFA39;
-  font-weight: 600;
+  
 
 
 }
@@ -53,7 +68,6 @@ h3{
 h4 {
   color: #FDFA39;
   font-size: 14px;
-  font-weight: 600;
 }
 
 a {
@@ -87,13 +101,13 @@ p {
 .btn {
   background: #FDFA39;
   border: medium none;
-  border-radius: 0;
+  border-radius: 4px;
   color: #000000;
-  font-size: 25px;
+  font-size: 14px;
   letter-spacing: 0.1em;
-  height: 50px;
-  line-height: 50px;
-  padding: 0 30px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
   text-transform: uppercase;
 }
 
@@ -101,6 +115,11 @@ p {
 .btn:focus {
   color: #ffffff;
 }
+.btn2{padding-top: 5em;}
+
+
+
+
 
 .padDiv {
   padding: 30px 20px;
@@ -112,7 +131,7 @@ p {
 
 .section-title h2 {
   font-size: 30px;
-  letter-spacing: 2px;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
 }
 
@@ -157,7 +176,7 @@ p {
 }
 
 .mb-30 {
-  margin-bottom: 30px;
+  margin-bottom: px;
   background-color: #FDFA39;
   color: #000;
   border: 2px;
@@ -720,7 +739,7 @@ margin-top: 2em;
 
 border: 10px;
   border-radius: 1%;
-  background-color: #24221F;
+  background-color: #0D1115;
   
   padding: 0.7em 0.7em 7em 0.7em;
 
@@ -735,8 +754,9 @@ border: 10px;
   bottom: 0;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: rgba(0, 0, 0, 0.9);
+  background: #0D1115;
 padding-bottom: 170px;
+border-radius: 11px;
   
 }
 
@@ -781,70 +801,7 @@ padding-bottom: 170px;
   bottom: 20px;
 }
 
-/*--------------------------------------------------------------
-# Portfolio Details
---------------------------------------------------------------*/
-.portfolio-details {
-  padding-top: 40px;
-}
 
-.portfolio-details .portfolio-details-slider img {
-  width: 100%;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px solid #b8a07e;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #b8a07e;
-}
-
-.portfolio-details .portfolio-info {
-  padding: 30px;
-  box-shadow: 0px 0 30px rgba(75, 74, 74, 0.08);
-}
-
-.portfolio-details .portfolio-info h3 {
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #eee;
-}
-
-.portfolio-details .portfolio-info ul {
-  list-style: none;
-  padding: 0;
-  font-size: 15px;
-}
-
-.portfolio-details .portfolio-info ul li+li {
-  margin-top: 10px;
-}
-
-.portfolio-details .portfolio-description {
-  padding-top: 30px;
-}
-
-.portfolio-details .portfolio-description h2 {
-  font-size: 26px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-.portfolio-details .portfolio-description p {
-  padding: 0;
-}
 
 /*--------------------------------------------------------------
 # Contact
