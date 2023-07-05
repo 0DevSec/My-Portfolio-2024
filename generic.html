@@ -9,112 +9,126 @@
 		<title>0DevSec</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main1.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="assets2/css/main1.css" />
+		<noscript><link rel="stylesheet" href="assets2/css/noscript.css" /></noscript>
 
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i,900,900i" rel="stylesheet">
 
-<!-- Libraries CSS Files -->
-<link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-<link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
-<link href="lib/hover/hover.min.css" rel="stylesheet">
+<!-- Vendor CSS Files -->
+<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-<link href="index.html">
-		<!-- Bootstrap CSS File -->
-<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
- <!-- Main Stylesheet File -->
- <link href="css/nav.css" rel="stylesheet">
- <link href="css/style.css" rel="stylesheet">
- <!-- Responsive css -->
- <link href="css/responsive.css" rel="stylesheet">
+<!-- Template Main CSS File -->
+<link href="assets/css/style.css" rel="stylesheet">
 
 <!-- Favicon -->
-<link rel="shortcut icon" href="images/taplogo.png">
+<link href="assets/img/fav.png" rel="icon">
+
 
 	</head>
 	<body class="is-preload" class="page1">
 
 <style>
 
-#header {
-	background: url("../images/home-bg.jpg") repeat scroll center center / cover;
-
-  height: 35vh;
+#hero {
+  background: url("assets/img/home-bg.jpg") repeat scroll center center/cover;
+  height: 25vh;
   width: 100%;
- 
+}
+#hero .hero-content {
+  height: 100vh;
+  text-align: left;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
+.hero-content div {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 550px;
+  text-transform: uppercase;
+  color: #fff;
+}
 </style>
 
-							<!-- start section navbar -->
-							<nav id="main-nav">
-								<div class="row">
-								  <div class="container">
-							
-									<div class="logo">
-									  <a href="index.html"><img src="images/logo.png" alt="logo"></a>
-									</div>
-							
-									<div class="responsive"><i style="color:#FDFA39;" data-icon="m" class="ion-navicon-round"></i></div>
-							
-									<ul class="nav-menu list-unstyled">
-									  <li><a  href="index.html#header" class="smoothScroll">Home</a></li>
-									  <li><a href="index.html#about" class="smoothScroll">About</a></li>
-									  <li><a href="index.html#portfolio" class="smoothScroll">Portfolio</a></li>
+							 <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-between">
 
-									 <!-- <li><a href="#journal" class="smoothScroll">Blog</a></li>-->
-									  <li><a href="#contact" class="smoothScroll">Contact</a></li>
+      <a href="index.html" class="logo" ><img src="assets/img/logo.png" alt="" class="img-fluid2"></a>
+      <!-- Uncomment below if you prefer to use an text logo -->
+      <!-- <h1 class="logo"><a href="index.html">Folio</a></h1> -->
 
-									</ul>
-							
-								  </div>
-								</div>
-							  </nav>
-							  <!-- End section navbar -->
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
+          <li><a class="nav-link  scrollto" href="index.html#portfolio">Portfolio</a></li>
+         <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li>-->
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
 
-<section>
+    </div>
+  </header><!-- End Header -->
+
+  
+<!-- ======= Hero Section ======= -->
+<div id="hero" class="home">
+	
+    <div class="container">
+      <div class="hero-content">
+		<a href="index.html" class="logo">
+       <div>0DEVSEC</div>
+	</a>
+      </div>
+    </div>
+  </div><!-- End Hero -->
+
+  
 		<!-- Wrapper -->
 			<div id="wrapper">
 
-				<!-- Header -->
-					<header id="header">
-						<div class="inner">
-
-							<!-- Logo -->
-
-								<a href="index.html" class="logo">
-									<span class="symbol" id="colorlogo">0DevSec</span>
-								</a>
-							</header>
+				
 
 				<!-- Main -->
 					<div id="main">
 						<div class="inner" class="image main">
                              <span class="image main">
 
-						<h2>Generic Page</h2>							
-						<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique.</p>
-							
-						<img src="images/wh.webp" />
-                             <h1> Case <1></h1>
-							
-							<h2>Generic Page</h2>							
-							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique.</p>
-							<img src="images/wh.webp" />
-
-							<h1>Generic Page</h1>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel venenatis mauris vehicula hendrerit.</p>
-							<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
-
+						
 
 							
 							<h1 id="ux-design-course-tutorial-for-beginners-user-experience-design-fundamentals"><em>UX Design Course Tutorial for Beginners: User Experience Design Fundamentals</em></h1>
 							<hr>
 							<h3 id="مصمم-تجربه-المستخدم">مصمم تجربه المستخدم</h3>
 							<p>اهم نقطه تركز عليه هي فهم عقل الانسان كيف يشتغل و ايش هي المراحل او المشاعر الي يحس فيها الشخص وقت يستخدم منتج او يتخذ قرار عشان فهمك لعقل الانسان راح يساعدك تقدم افضل تصميم او تجربه مستخدم لي الفئه المستهدفه في السوق</p>
-							<p><img src="images/UX/1688262919476.png" alt="1688262919476"></p>
-							<p><img src="images/UX/1688262966070.png" alt="1688262966070"></p>
-							<p><img src="images/UX/1688262990060.png" alt="1688262990060"></p>
+							<p><img src="assets/img/UX//1688262919476.png" alt="1688262919476"></p>
+							<p><img src="assets/img/UX//1688262966070.png" alt="1688262966070"></p>
+							<p><img src="assets/img/UX//1688262990060.png" alt="1688262990060"></p>
 							<hr>
 							<h1 id="case-study"><em>CASE STUDY</em></h1>
 							<h2 id="using-attribute-listing--case-study"><em>Using Attribute Listing / CASE STUDY</em></h2>
@@ -195,17 +209,17 @@
 							<h2 id="five-phases-of-the-design-process-----------orientation--analysis--concepts--design--implementation"><em>Five Phases of the Design Process:											Orientation &gt; Analysis &gt; Concepts &gt; Design &gt; Implementation</em></h2>
 							<hr>
 							<h1 id="click--what-is-design-thinking-an-overview---ajsmart"><a href="https://youtu.be/gHGN6hs2gZY"> <em>click &gt; What Is Design Thinking? An Overview &gt;&gt;  AJ&amp;Smart</em></a></h1>
-							<p><img src="images/UX/1688323584595.png" alt="1688323584595"></p>
+							<p><img src="assets/img/UX//1688323584595.png" alt="1688323584595"></p>
 							<h2 id="empathise"><em>Empathise</em></h2>
 							<p>في المرحله الاوله</p>
 							<p>افهم منتجك بشكل بسيط تقدر انك تتكلم عنه</p>
 							<p>ولازم تتعرف على الجمهور المستهدف</p>
 							<p>وتفهم مشاكلهم</p>
 							<p>و تعرف انت قاعد تصنع هذا المنتج لمين</p>
-							<p><img src="images/UX/1688327599682.png" alt="1688327599682"></p>
-							<p><img src="images/UX/1688327618255.png" alt="1688327618255"></p>
-							<p><img src="images/UX/1688327632240.png" alt="1688327632240"></p>
-							<p><img src="images/UX/1688327642991.png" alt="1688327642991"></p>
+							<p><img src="assets/img/UX//1688327599682.png" alt="1688327599682"></p>
+							<p><img src="assets/img/UX//1688327618255.png" alt="1688327618255"></p>
+							<p><img src="assets/img/UX//1688327632240.png" alt="1688327632240"></p>
+							<p><img src="assets/img/UX//1688327642991.png" alt="1688327642991"></p>
 							<hr>
 							<h2 id="define"><em>Define</em></h2>
 							<p> المرحله الثانيه</p>
@@ -216,10 +230,10 @@
 							<p>و هاذي البصيراو الروئيه هي خطتك في التقدم</p>
 							<p>مع العلم انو في مرحله الاختبار راح ترجع لي المرحله الثانيه عشان تضيف معلومات جديد من مرحله الاختبار و هاذي</p>
 							<p>الحركه او التحديث راح تكررها اكثر من مره طول مده المشروع</p>
-							<p><img src="images/UX/1688327786790.png" alt="1688327786790"></p>
-							<p><img src="images/UX/1688327807030.png" alt="1688327807030"></p>
-							<p><img src="images/UX/1688327819201.png" alt="1688327819201"></p>
-							<p><img src="images/UX/1688327826653.png" alt="1688327826653"></p>
+							<p><img src="assets/img/UX//1688327786790.png" alt="1688327786790"></p>
+							<p><img src="assets/img/UX//1688327807030.png" alt="1688327807030"></p>
+							<p><img src="assets/img/UX//1688327819201.png" alt="1688327819201"></p>
+							<p><img src="assets/img/UX//1688327826653.png" alt="1688327826653"></p>
 							<hr>
 							<h2 id="ideate"><em>Ideate</em></h2>
 							<p>المرحله الثالثه</p>
@@ -233,31 +247,31 @@
 							<p>ميزه \ميزه محسنه</p>
 							<p>في المستقبل تنضاف</p>
 							<p>غير منطقيه</p>
-							<p><img src="images/UX/1688328015356.png" alt="1688328015356"></p>
-							<p><img src="images/UX/1688328059876.png" alt="1688328059876"></p>
-							<p><img src="images/UX/1688328067179.png" alt="1688328067179"></p>
-							<p><img src="images/UX/1688328074869.png" alt="1688328074869"></p>
-							<p><img src="images/UX/1688328086429.png" alt="1688328086429"></p>
+							<p><img src="assets/img/UX//1688328015356.png" alt="1688328015356"></p>
+							<p><img src="assets/img/UX//1688328059876.png" alt="1688328059876"></p>
+							<p><img src="assets/img/UX//1688328067179.png" alt="1688328067179"></p>
+							<p><img src="assets/img/UX//1688328074869.png" alt="1688328074869"></p>
+							<p><img src="assets/img/UX//1688328086429.png" alt="1688328086429"></p>
 							<hr>
 							<h2 id="prototype"><em>prototype</em></h2>
 							<p>في المرحله الرابعه</p>
 							<p>اصنع حلك بشكل غير كامل عشان تشوف اراء المستخدمين في مرحله الاختبار</p>
-							<p><img src="images/UX/1688328111436.png" alt="1688328111436"></p>
-							<p><img src="images/UX/1688328142971.png" alt="1688328142971"></p>
-							<p><img src="images/UX/1688328150901.png" alt="1688328150901"></p>
-							<p><img src="images/UX/1688328163316.png" alt="1688328163316"></p>
+							<p><img src="assets/img/UX//1688328111436.png" alt="1688328111436"></p>
+							<p><img src="assets/img/UX//1688328142971.png" alt="1688328142971"></p>
+							<p><img src="assets/img/UX//1688328150901.png" alt="1688328150901"></p>
+							<p><img src="assets/img/UX//1688328163316.png" alt="1688328163316"></p>
 							<hr>
 							<h2 id="test"><em>Test</em></h2>
 							<p>في مرحله الاختبار راح ترجع لي المرحله الثانيه عشان تضيف معلومات جديد من مرحله الاختبار و هاذي</p>
 							<p>الحركه او التحديث راح تكررها اكثر من مره طول مده المشروع</p>
-							<p><img src="images/UX/1688327399383.png" alt="1688327399383"></p>
-							<p><img src="images/UX/1688328369999.png" alt="1688328369999"></p>
-							<p><img src="images/UX/1688328377610.png" alt="1688328377610"></p>
-							<p><img src="images/UX/1688328698392.jpg" alt="1688328698392"></p>
-							<p><img src="images/UX/1688328234716.png" alt="1688328234716"></p>
-							<p><img src="images/UX/1688328262140.png" alt="1688328262140"></p>
+							<p><img src="assets/img/UX//1688327399383.png" alt="1688327399383"></p>
+							<p><img src="assets/img/UX//1688328369999.png" alt="1688328369999"></p>
+							<p><img src="assets/img/UX//1688328377610.png" alt="1688328377610"></p>
+							<p><img src="assets/img/UX//1688328698392.jpg" alt="1688328698392"></p>
+							<p><img src="assets/img/UX//1688328234716.png" alt="1688328234716"></p>
+							<p><img src="assets/img/UX//1688328262140.png" alt="1688328262140"></p>
 							<hr>
-							<p><img src="images/UX/1688332332963.jpg" alt="1688332332963"></p>
+							<p><img src="assets/img/UX//1688332332963.jpg" alt="1688332332963"></p>
 							
 
 
@@ -267,120 +281,147 @@
 
 
 <!-- end of the page #########################################################################################################s -->
-							<a class="Up"  href="#header" class="smoothScroll"  ><i  class="ion-ios-arrow-up "></i></a>
+
 							</span>
+
+
+
+
+							
 						</div>
-					</div>
 
-
-
-<!-- start sectoion contact -->
+<!-- ======= Contact Section ======= -->
 <div id="contact" class="paddsection">
-	
-    <div class="container">
-      <div class="contact-block1">
-        <div class="row">
+	<div class="container">
+	  <div class="contact-block1">
+		<div class="row">
 
-          <div class="col-lg-6">
-            <div class="contact-contact">
+		  <div class="col-lg-6">
+			<div class="contact-contact">
 
-              <h2 class="mb-30">Let's Work to Solve the Case > </h2>
+			  <h2 class="mb-30">Let's Work to Solve the Case ></h2>
 
-              <ul class="contact-details">
-                <li><span>@ +966 555555557</span></li>
-                <li><span>@ Whatsapp</span></li>
-                <li><span>@ 00dev.sec@gmail.com</span></li>
-              </ul>
-
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <form action="contactform/contactform.php "  method="post" role="form" class="contactForm" data-netlify="true">
-              <div class="row">
-
-                <div id="sendmessage">Your message has been sent. Thank you!</div>
-                <div id="errormessage"></div>
-
-                <div class="col-lg-6">
-                  <div class="form-group contact-block1">
-                    <input type="text" name="name" class="form-control" id="lname" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                    <div class="validation"></div>
-                  </div>
-                </div>
-
-                <div class="col-lg-6">
-                  <div class="form-group">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                    <div class="validation"></div>
-                  </div>
-                </div>
-
-                <div class="col-lg-12">
-                  <div class="form-group">
-                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                    <div class="validation"></div>
-                  </div>
-                </div>
-
-                <div class="col-lg-12">
-                  <div class="form-group">
-                    <textarea class="form-control" name="message" rows="12" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                    <div class="validation"></div>
-                  </div>
-                </div>
-
-                <div class="col-lg-12">
-                  <input type="submit" class="btn btn-defeault btn-send" value="Send message">
-                </div>
-
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- start sectoion contact -->
-
-				 <!-- start section footer -->
-  <div id="footer" class="text-center">
-    <div class="container">
-      <div class="socials-media text-center">
-
-        <ul class="list-unstyled">
-          <li><a href="https://twitter.com/DEVSEC1669532"><i class="ion-social-twitter"></i></a></li>
-          <li><a href="https://www.instagram.com/0dev.sec"><i class="ion-social-instagram"></i></a></li>
-          <li><a href="#"><i class="ion-social-dribbble"></i></a></li>
-        </ul>
-
-      </div>
-
-      <p>&copy; Copyrights 0DevSec. All rights reserved.</p>
-
-      <div class="credits">
-        <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Folio
-        -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade Edit by 0DevSec aka Ahmed</a>
-      </div>
-
-    </div>
-  </div>
-  <!-- End section footer -->
+			  <ul class="contact-details">
+				<li><span></span></li>
+				<li><span></span></li>
+				<li><span>+88 01912704287</span></li>
+				<li><span>example@example.com</span></li>
+			  </ul>
 
 			</div>
-		</section>
+		  </div>
+
+		  <div class="col-lg-6">
+			<form action="forms/contact.php" method="post" role="form" class="php-email-form" data-netlify="true">
+			  <div class="row gy-3">
+
+				<div class="col-lg-6">
+				  <div class="form-group contact-block1">
+					<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+				  </div>
+				</div>
+
+				<div class="col-lg-6">
+				  <div class="form-group">
+					<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+				  </div>
+				</div>
+
+				<div class="col-lg-12">
+				  <div class="form-group">
+					<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+				  </div>
+				</div>
+
+				<div class="col-lg-12">
+				  <div class="form-group">
+					<textarea class="form-control" name="message" placeholder="Message" required></textarea>
+				  </div>
+				</div>
+
+				<div class="col-lg-12">
+				  <div class="loading">Loading</div>
+				  <div class="error-message"></div>
+				  <div class="sent-message">Your message has been sent. Thank you!</div>
+				</div>
+
+				<div class="mt-0">
+				  <input type="submit" class="btn btn-defeault btn-send" value="Send message">
+				</div>
+
+			  </div>
+			</form>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </div><!-- End Contact Section -->
+
+</main><!-- End #main -->
+
+<!-- ======= Footer ======= -->
+<div id="footer" class="text-center">
+  <div class="container">
+	<div class="socials-media text-center">
+
+	  <ul class="list-unstyled">
+		<li><a href="#"><i class="bi bi-facebook"></i></a></li>
+		<li><a href="#"><i class="bi bi-twitter"></i></a></li>
+		<li><a href="#"><i class="bi bi-instagram"></i></a></li>
+		<li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+	  </ul>
+
+	</div>
+
+	<p>&copy; Copyrights Folio. All rights reserved.</p>
+
+	<div class="credits">
+	  <!--
+	  All the links in the footer should remain intact.
+	  You can delete the links only if you purchased the pro version.
+	  Licensing information: https://bootstrapmade.com/license/
+	  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Folio
+	-->
+	  Designed by <a href="https://bootstrapmade.com/">BootstrapMade Edit  by Ahmed aka 0DevSec </a>
+	</div>
+
+  </div>
+</div><!-- End Footer -->
+
+
+
+						<!--end-->
+					</div>
+
+			</div>
+
+
+    
+  
+
+		
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/mainblog.js"></script>
+			<script src="assets2/js/jquery.min.js"></script>
+			<script src="assets2/js/browser.min.js"></script>
+			<script src="assets2/js/breakpoints.min.js"></script>
+			<script src="assets2/js/util.js"></script>
+			<script src="assets2/js/mainblog.js"></script>
  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
+  <script src="assets2/"></script>
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 	</body>
 </html>
