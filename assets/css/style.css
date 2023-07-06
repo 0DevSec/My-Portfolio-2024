@@ -18,6 +18,11 @@
   font-weight: normal;
   font-style: normal;
 }
+#on-phone{visibility: hidden;}
+
+
+.arrow2{text-align: center; color: #ffffff; font-size: 30px; margin-top: 1em;}
+.arrow2:hover{color: #000;}
 
 /*--------------------------------------------------------------
 # General
@@ -105,9 +110,9 @@ p {
   color: #000000;
   font-size: 14px;
   letter-spacing: 0.1em;
-  height: 30px;
+  height: 40px;
   line-height: 30px;
-  padding: 0 10px;
+  padding: 0 10px ;
   text-transform: uppercase;
 }
 
@@ -115,7 +120,7 @@ p {
 .btn:focus {
   color: #ffffff;
 }
-.btn2{padding-top: 5em;}
+.btn2{padding-top: 2em;}
 
 
 
@@ -135,27 +140,7 @@ p {
   text-transform: uppercase;
 }
 
-.form-control {
-  background-color: transparent;
-  border: 1px solid #A6A402;
-  border-radius: 0;
-  color: #5b1616;
-  font-size: 15px;
-  font-weight: 500;
-  height: 50px;
-  letter-spacing: 0.1em;
-  padding-left: 10px;
-  margin: 0 0 25px 0;
-  line-height: 14px;
-  text-transform: uppercase;
-  border-radius: 2px;
-  
-}
 
-.form-control:focus {
-  box-shadow: none;
-  outline: 0 none;
-}
 
 .paddsection {
   padding-top: 90px;
@@ -608,11 +593,13 @@ p {
 /*-----------------------------------------------------------------------------------*/
 /*  About
 /*-----------------------------------------------------------------------------------*/
+
+
 #about {
   width: 100%;
   height: auto;
   background: #24221F;
-  padding-top: 110px;
+  padding-top: 10em;
 }
 
 #about .div-img-bg {
@@ -637,11 +624,12 @@ p {
   font-family: Helveticaa;
   font-size: 28px;
   text-align: left;
+ 
 }
 
 #about .about-descr .separator {
-  max-width: 80%;
-  margin-bottom: 0;
+  max-width: 90%;
+  margin-bottom: 2px;
   text-align: left;
 }
 
@@ -957,6 +945,11 @@ border-radius: 11px;
  */
 @media (min-width: 768px) and (max-width: 991px) {
 
+/* on phne show text*/
+  #on-phone{visibility: visible; color: #ffffff; font-size: large;}
+
+
+
   /* Navbar */
   nav {
     padding: 10px 15px;
@@ -1039,6 +1032,8 @@ border-radius: 11px;
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 @media (max-width: 767px) {
+/* on phne show text*/
+#on-phone{visibility: visible; color: #ffffff; font-size: large;}
 
   /* Navbar */
   nav {
@@ -1122,6 +1117,8 @@ border-radius: 11px;
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 @media (max-width: 600px) {
+/* on phne show text*/
+#on-phone{visibility: visible; color: #ffffff; font-size: large;}
 
   /* Navbar */
   nav {
@@ -1205,6 +1202,8 @@ border-radius: 11px;
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 @media (max-width: 480px) {
+/* on phne show text*/
+#on-phone{visibility: visible; color: #ffffff; font-size: large;}
 
   /* Navbar */
   nav {
@@ -1287,6 +1286,8 @@ border-radius: 11px;
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 @media (max-width: 320px) {
+/* on phne show text*/
+#on-phone{visibility: visible; color: #ffffff; font-size: large;}
 
   /* Navbar */
   nav {
