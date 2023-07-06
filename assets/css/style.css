@@ -747,7 +747,7 @@ border: 10px;
   z-index: 3;
   transition: all ease-in-out 0.3s;
   background: #0D1115;
-padding-bottom: 25px;
+padding-bottom: 29px;
 border-radius: px;
 
   
@@ -765,22 +765,23 @@ border-radius: px;
 
 #portfolio .portfolio-item .portfolio-info p {
   color: #f9f9f9;
-  font-size: 14px;
+  font-size: 12spx;
   margin: 0;
   text-align: left;
   padding-left: 1em;
-  width: 300px;
+  width: 265px;
 }
 
 #portfolio .portfolio-item .portfolio-info .preview-link,
 #portfolio .portfolio-item .portfolio-info .details-link {
   position: absolute;
-  right: 59px;
+  right: 50px;
   bottom: 20px;
-  font-size: px;
-  top: calc(25% - -1px);
+ 
+  top: calc(35% - -1px);
   color: #FDFA39;
   padding-right: 0.1em;
+  
   
 
 
@@ -792,7 +793,8 @@ border-radius: px;
 }
 
 #portfolio .portfolio-item .portfolio-info .details-link {
-  right: 10px;
+  right: 1px;
+  
 }
 
 #portfolio .portfolio-item:hover .portfolio-info {
