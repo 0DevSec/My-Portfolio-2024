@@ -177,10 +177,15 @@ p {
 
 .mb-30 {
   margin-bottom: px;
-  background-color: #FDFA39;
+  background-color: #A6A402;
+  letter-spacing: 0.1em;
+  line-height: 1.7em;
+  float: left;
+  font-size: 25px;
   color: #000;
-  border: 2px;
-  border-radius: 2px;
+  border: 9px;
+  padding: 0 20px  0;
+  border-radius: 9px;
 }
 
 .main-content {
@@ -607,7 +612,7 @@ p {
   width: 100%;
   height: auto;
   background: #24221F;
-  padding-top: 120px;
+  padding-top: 110px;
 }
 
 #about .div-img-bg {
@@ -629,7 +634,7 @@ p {
 }
 
 #about .about-descr .p-heading {
-  font-family: "Playfair Display", serif;
+  font-family: Helveticaa;
   font-size: 28px;
   text-align: left;
 }
