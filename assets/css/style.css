@@ -759,8 +759,9 @@ border-radius: px;
   color: #FDFA39;
   font-weight: 600;
   margin-bottom: 10px;
-  text-align: center;
+  text-align: left;
   padding-top: 1em;
+  padding-left: 0.8em;
 }
 
 #portfolio .portfolio-item .portfolio-info p {
@@ -775,10 +776,10 @@ border-radius: px;
 #portfolio .portfolio-item .portfolio-info .preview-link,
 #portfolio .portfolio-item .portfolio-info .details-link {
   position: absolute;
-  right: 50px;
+  right: 59px;
   bottom: 20px;
  
-  top: calc(35% - -1px);
+  top: calc(25% - -1px);
   color: #FDFA39;
   padding-right: 0.1em;
   
@@ -793,7 +794,7 @@ border-radius: px;
 }
 
 #portfolio .portfolio-item .portfolio-info .details-link {
-  right: 1px;
+  right: 8px;
   
 }
 
