@@ -18,7 +18,6 @@
   font-weight: normal;
   font-style: normal;
 }
-#on-phone{visibility: hidden;}
 
 
 .arrow2{text-align: center; color: #ffffff; font-size: 30px; margin-top: 1em;}
@@ -740,18 +739,20 @@ border: 10px;
 }
 
 #portfolio .portfolio-item .portfolio-info {
-  opacity: 0;
+  opacity: 1;
   position: absolute;
-  left: 30px;
-  right: 30px;
+  left: 13px;
+  right: 13px;
   bottom: 0;
   z-index: 3;
   transition: all ease-in-out 0.3s;
   background: #0D1115;
-padding-bottom: 170px;
-border-radius: 11px;
+padding-bottom: 25px;
+border-radius: px;
+
   
 }
+
 
 #portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
@@ -766,7 +767,8 @@ border-radius: 11px;
   color: #f9f9f9;
   font-size: 14px;
   margin: 0;
-  text-align: center;
+  text-align: left;
+  padding-left: 1em;
 }
 
 #portfolio .portfolio-item .portfolio-info .preview-link,
@@ -774,8 +776,10 @@ border-radius: 11px;
   position: absolute;
   right: 40px;
   font-size: 24px;
-  top: calc(45% - -100px);
+  top: calc(18% - -1px);
   color: #FDFA39;
+  padding-right: 0.1em;
+  
 
 
 }
@@ -946,7 +950,7 @@ border-radius: 11px;
 @media (min-width: 768px) and (max-width: 991px) {
 
 /* on phne show text*/
-  #on-phone{visibility: visible; color: #ffffff; font-size: large;}
+  
 
 
 
@@ -1033,7 +1037,7 @@ border-radius: 11px;
  */
 @media (max-width: 767px) {
 /* on phne show text*/
-#on-phone{visibility: visible; color: #ffffff; font-size: large;}
+
 
   /* Navbar */
   nav {
@@ -1118,7 +1122,7 @@ border-radius: 11px;
  */
 @media (max-width: 600px) {
 /* on phne show text*/
-#on-phone{visibility: visible; color: #ffffff; font-size: large;}
+
 
   /* Navbar */
   nav {
@@ -1203,7 +1207,7 @@ border-radius: 11px;
  */
 @media (max-width: 480px) {
 /* on phne show text*/
-#on-phone{visibility: visible; color: #ffffff; font-size: large;}
+
 
   /* Navbar */
   nav {
@@ -1287,7 +1291,7 @@ border-radius: 11px;
  */
 @media (max-width: 320px) {
 /* on phne show text*/
-#on-phone{visibility: visible; color: #ffffff; font-size: large;}
+
 
   /* Navbar */
   nav {
