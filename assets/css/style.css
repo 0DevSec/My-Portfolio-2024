@@ -163,7 +163,7 @@ p {
   letter-spacing: 0.1em;
   line-height: 1.7em;
   float: left;
-  font-size: 25px;
+  font-size: 17px;
   color: #000;
   border: 9px;
   padding: 0 20px  0;
@@ -734,7 +734,7 @@ p {
 margin-top: 2em;
 
 border: 10px;
-  border-radius: 1%;
+  border-radius: 0%;
   background-color: #0D1115;
   
   padding: 0.7em 0.7em 7em 0.7em;
@@ -805,7 +805,8 @@ border-radius: px;
 
 #portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
-  bottom: 20px;
+  bottom: 25px;
+  background-color: #0e1217;
 }
 
 

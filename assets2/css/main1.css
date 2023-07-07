@@ -74,12 +74,15 @@ section, summary, time, mark, audio, video {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		padding-bottom: 2em
 	;
 	}
 
 		.image img {
 			border-radius: 4px;
 			display: block;
+			padding-bottom: 1em;
+			
 		}
 
 		.image.left, .image.right {
