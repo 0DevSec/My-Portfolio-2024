@@ -144,8 +144,8 @@ section, summary, time, mark, audio, video {
 
 	#main {
 		padding: 3em 0 0 0 ;
-		color: #ffffff;
-		background-color: #24221F;
+		color: #000000;
+		background-color: #ffffff;
 	}
 	 
 	h1  {
@@ -154,7 +154,7 @@ section, summary, time, mark, audio, video {
 	
 p{padding-bottom: 2em;}
 
-#contact{background-color: #53524C;}
+#contact{background-color: #ffffff;}
 /* Main ######################################################################################*/
 		@media screen and (max-width: 736px) {
 
