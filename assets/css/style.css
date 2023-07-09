@@ -697,11 +697,10 @@ p {
   position: relative;
   padding-bottom: 55px;
   background-color: #DAD9DF;
-  border: 10px solid #000;
-  border-radius: 3px;
- width: 96%; 
- left: 2%;
- ;
+  
+  
+ 
+ 
 }
 
 #portfolio #portfolio-flters {
@@ -744,9 +743,9 @@ p {
 margin-top: 2em;
 
 border: 10px;
-  border-radius:  0% 0% 0% 0% ;
+  
   background-color: #D5D5DA;
-  box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.427);
+  box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.266);
   padding: 0.7em 0.7em 7em 0.7em;
 
 
