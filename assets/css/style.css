@@ -739,13 +739,12 @@ p {
   
 }
 .img-fluid{
-  rotate: 5deg;
 margin-top: 2em;
 
 border: 10px;
   
-  background-color: #D5D5DA;
-  padding: 0.7em 0.7em 7em 0.7em;
+  background-color: #A6A402;
+  padding: 0.9em 0.9em 9em 0.9em;
 
 
 }
@@ -754,14 +753,13 @@ border: 10px;
   opacity: 1;
   position: absolute;
   
-  left: 2px;
-  right: 25px;
+  left: 14px;
+  right: 14px;
   bottom: 0;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: #D5D5DA;
+  background: #989600;
 padding-bottom: 27px;
-rotate: 5deg;
 
 
   
@@ -770,22 +768,23 @@ rotate: 5deg;
 
 #portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
-  color: #ffffff;
+  color: #000000;
   font-weight: 600;
   margin-bottom: 10px;
   text-align: left;
   padding-top: 1em;
   padding-left: 0.8em;
-  
+  font-family: 'Silkscreen', cursive ;
 }
 
 #portfolio .portfolio-item .portfolio-info p {
   color: #000000;
-  font-size: 12spx;
+  font-size: 15px;
   margin: 0;
   text-align: left;
   padding-left: 1em;
   width: 265px;
+  font-family: 'Silkscreen', cursive ;
 }
 
 #portfolio .portfolio-item .portfolio-info .preview-link,
@@ -795,7 +794,7 @@ rotate: 5deg;
   bottom: 20px;
  
   top: calc(25% - -1px);
-  color: #FDFA39;
+  
   padding-right: 0.1em;
   
   
@@ -816,7 +815,7 @@ rotate: 5deg;
 #portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
   bottom: 25px;
-  background-color: #D5D5DA;
+  background-color: #A6A402;
 }
 
 
