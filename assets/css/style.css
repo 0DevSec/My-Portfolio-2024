@@ -100,7 +100,7 @@ p {
 }
 
 .btn {
-  background: #c9c58a;
+  background: #DCCC2C;
   border: medium none;
   border-radius: 4px;
   color: #000000;
@@ -600,15 +600,15 @@ p {
 #about {
   width: 100%;
   height: auto;
-  background: rgb(244, 244, 244);
+  background: #E3E0D7;
   padding-top: 129px;
 }
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #A6A402;
+  border: 20px solid #DCCC2C;
   border-radius: 2px;
-  background-color: #A6A402;
+  background-color: #DCCC2C;
 }
 
 #about .div-img-bg .about-img img {
@@ -645,7 +645,7 @@ p {
 # Services
 --------------------------------------------------------------*/
 #services {
-  background: rgb(244, 244, 244);
+  background: #E3E0D7;
   position: relative;
   padding-bottom: 80px;
 }
@@ -696,7 +696,7 @@ p {
 #portfolio {
   position: relative;
   padding-bottom: 55px;
-  background-color:rgb(244, 244, 244) ;
+  background-color:#E3E0D7 ;
   
   
  
@@ -743,7 +743,7 @@ margin-top: 2em;
 
 border: 10px;
   
-  background-color: #24221F;
+  background-color: #000000;
   padding: 0.9em 0.9em 9em 0.9em;
 
 
@@ -758,7 +758,7 @@ border: 10px;
   bottom: 0;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: #24221F;
+  background: #000000;
 padding-bottom: 27px;
 
 
@@ -815,7 +815,7 @@ padding-bottom: 27px;
 #portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
   bottom: 25px;
-  background-color: #24221F;
+  background-color: #000000;
 }
 
 
