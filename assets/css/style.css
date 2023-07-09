@@ -20,7 +20,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background: #ffffff;
+  background: #DAD9DF;
   color: #000000;
   font-family: "Poppins", helvetica;
 
@@ -214,7 +214,7 @@ p {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
-  background-color: #ffffff;
+  background-color: #DAD9DF;
   
   top: -100%;
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0);
@@ -370,17 +370,19 @@ p {
 */
 .mobile-nav-toggle {
   color: #000000;
-  font-size: 28px;
+  font-size: 39px;
   cursor: pointer;
   display: none;
   line-height: 0;
-  transition: 0.5s;
+  transition: 0.9s;
+  rotate: 90deg;
 }
 
 .mobile-nav-toggle.bi-x {
   color: #ffffff;
   font-size: 5em;
   padding-top: 3em;
+  rotate: 0deg;
 }
 
 @media (max-width: 991px) {
@@ -598,7 +600,7 @@ p {
 #about {
   width: 100%;
   height: auto;
-  background: #ffffff;
+  background: #DAD9DF;
   padding-top: 129px;
 }
 
@@ -606,13 +608,14 @@ p {
   padding-bottom: 30px;
   border: 20px solid #A6A402;
   border-radius: 2px;
+  background-color: #A6A402;
 }
 
 #about .div-img-bg .about-img img {
   width: 100%;
   box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
-  margin-top: -60px;
-  margin-left: 40px;
+  margin-top: -px;
+  margin-left: px;
   height: 400px;
   -o-object-fit: cover;
   object-fit: cover;
@@ -627,6 +630,7 @@ p {
   text-transform: capitalize;
   line-height: 1.5em;
   max-width: 100%;
+  padding-top: 5em;
   
  
 }
@@ -641,7 +645,7 @@ p {
 # Services
 --------------------------------------------------------------*/
 #services {
-  background: #ffffff;
+  background: #DAD9DF;
   position: relative;
   padding-bottom: 80px;
 }
@@ -692,8 +696,12 @@ p {
 #portfolio {
   position: relative;
   padding-bottom: 55px;
-  background-color: #ffffff;
-  
+  background-color: #DAD9DF;
+  border: 10px solid #000;
+  border-radius: 3px;
+ width: 96%; 
+ left: 2%;
+ ;
 }
 
 #portfolio #portfolio-flters {
@@ -737,8 +745,8 @@ margin-top: 2em;
 
 border: 10px;
   border-radius:  0% 0% 0% 0% ;
-  background-color: #000000;
-  
+  background-color: #D5D5DA;
+  box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.427);
   padding: 0.7em 0.7em 7em 0.7em;
 
 
@@ -748,13 +756,13 @@ border: 10px;
   opacity: 1;
   position: absolute;
   
-  left: 7px;
-  right: 29px;
+  left: 2px;
+  right: 25px;
   bottom: 0;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: #000000;
-padding-bottom: 29px;
+  background: #D5D5DA;
+padding-bottom: 27px;
 rotate: 5deg;
 
 
@@ -774,7 +782,7 @@ rotate: 5deg;
 }
 
 #portfolio .portfolio-item .portfolio-info p {
-  color: #f9f9f9;
+  color: #000000;
   font-size: 12spx;
   margin: 0;
   text-align: left;
@@ -810,7 +818,7 @@ rotate: 5deg;
 #portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
   bottom: 25px;
-  background-color: #000000;
+  background-color: #D5D5DA;
 }
 
 
@@ -1090,6 +1098,7 @@ rotate: 5deg;
 
   #about .div-img-bg {
     padding: 0;
+    
   }
 
   #about .div-img-bg .about-img img {
