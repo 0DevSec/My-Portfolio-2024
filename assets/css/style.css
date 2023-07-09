@@ -104,20 +104,20 @@ p {
   border: medium none;
   border-radius: 4px;
   color: #000000;
-  font-size: 14px;
+  font-size: 17px;
   letter-spacing: 0.1em;
   height: 35px;
   line-height: 3px;
   padding: 0 5px ;
   text-transform: uppercase;
-  ;font-family: 'gmc';
+  font-weight: 1000;
 }
 
 .btn:hover,
 .btn:focus {
   color: #535353;
 }
-.btn2{padding-top: 2em;font-family: 'gmc'; }
+.btn2{padding-top: 2em; }
 
 
 
@@ -214,7 +214,7 @@ p {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
-  background-color: rgb(244, 244, 244);
+  background-color: #E3E0D7;
   
   top: -100%;
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0);
@@ -241,7 +241,7 @@ p {
 }
 
 #header .logo img {
-  max-height: 20px;
+  max-height: 45px;
   background-color: transparent;
 }
 
@@ -710,6 +710,7 @@ p {
   text-align: center;
   border-radius: 50px;
   padding: 2px 15px;
+  
 }
 
 #portfolio #portfolio-flters li {
@@ -743,7 +744,7 @@ margin-top: 2em;
 
 border: 10px;
   
-  background-color: #000000;
+  background-color: #3A3500;
   padding: 0.9em 0.9em 9em 0.9em;
 
 
@@ -754,12 +755,12 @@ border: 10px;
   position: absolute;
   
   left: 14px;
-  right: 14px;
+  right: 75px;
   bottom: 0;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: #000000;
-padding-bottom: 27px;
+  background: #3A3500;
+padding-bottom: 50px;
 
 
   
@@ -767,12 +768,13 @@ padding-bottom: 27px;
 
 
 #portfolio .portfolio-item .portfolio-info h4 {
+ 
   font-size: 18px;
   color: #ffffff;
   font-weight: 600;
   margin-bottom: 10px;
   text-align: left;
-  padding-top: 1em;
+  padding-top: em;
   padding-left: 0.8em;
   font-family: 'Silkscreen', cursive ;
 }
@@ -792,7 +794,7 @@ padding-bottom: 27px;
   position: absolute;
   right: 59px;
   bottom: 20px;
- 
+ opacity: 0;
   top: calc(25% - -1px);
   
   padding-right: 0.1em;
@@ -812,10 +814,10 @@ padding-bottom: 27px;
   
 }
 
-#portfolio .portfolio-item:hover .portfolio-info {
+#portfolio  .portfolio-item:hover  .portfolio-info  {
   opacity: 1;
   bottom: 25px;
-  background-color: #000000;
+  background-color: #3A3500;
 }
 
 
@@ -942,7 +944,7 @@ padding-bottom: 27px;
 }
 
 #footer .socials-media ul li a:hover {
-  color: #A0ECFF;
+  color: #DCCC2C;
   transition: all 0.5s ease-in-out 0s;
 }
 
