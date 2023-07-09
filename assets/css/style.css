@@ -12,7 +12,7 @@
   font-weight: normal;
   font-style: normal;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 .arrow2{text-align: center; color: #ffffff; font-size: 30px; margin-top: 1em;}
 .arrow2:hover{color: #000;}
 
@@ -20,7 +20,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background: #DAD9DF;
+  background: #FDFFFF;
   color: #000000;
   font-family: "Poppins", helvetica;
 
@@ -214,7 +214,7 @@ p {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
-  background-color: #DAD9DF;
+  background-color: #FDFFFF;
   
   top: -100%;
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0);
@@ -600,7 +600,7 @@ p {
 #about {
   width: 100%;
   height: auto;
-  background: #DAD9DF;
+  background: #FDFFFF;
   padding-top: 129px;
 }
 
@@ -645,7 +645,7 @@ p {
 # Services
 --------------------------------------------------------------*/
 #services {
-  background: #DAD9DF;
+  background: #FDFFFF;
   position: relative;
   padding-bottom: 80px;
 }
@@ -696,7 +696,7 @@ p {
 #portfolio {
   position: relative;
   padding-bottom: 55px;
-  background-color: #DAD9DF;
+  background-color: #FDFFFF;
   
   
  
@@ -743,7 +743,7 @@ margin-top: 2em;
 
 border: 10px;
   
-  background-color: #A6A402;
+  background-color: #24221F;
   padding: 0.9em 0.9em 9em 0.9em;
 
 
@@ -758,7 +758,7 @@ border: 10px;
   bottom: 0;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: #989600;
+  background: #24221F;
 padding-bottom: 27px;
 
 
@@ -768,7 +768,7 @@ padding-bottom: 27px;
 
 #portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
-  color: #000000;
+  color: #ffffff;
   font-weight: 600;
   margin-bottom: 10px;
   text-align: left;
@@ -778,7 +778,7 @@ padding-bottom: 27px;
 }
 
 #portfolio .portfolio-item .portfolio-info p {
-  color: #000000;
+  color: #ffffff;
   font-size: 15px;
   margin: 0;
   text-align: left;
@@ -815,7 +815,7 @@ padding-bottom: 27px;
 #portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
   bottom: 25px;
-  background-color: #A6A402;
+  background-color: #24221F;
 }
 
 
