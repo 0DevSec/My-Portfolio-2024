@@ -374,12 +374,12 @@ p {
   cursor: pointer;
   display: none;
   line-height: 0;
-  transition: 0.9s;
+  transition: 0.5s;
   rotate: 90deg;
 }
 
 .mobile-nav-toggle.bi-x {
-  color: #ffffff;
+  color: #DCCC2C;
   font-size: 5em;
   padding-top: 3em;
   rotate: 0deg;
@@ -755,7 +755,7 @@ border: 10px;
   position: absolute;
   
   left: 14px;
-  right: 75px;
+  right: 15px;
   bottom: 0;
   z-index: 3;
   transition: all ease-in-out 0.3s;
@@ -794,7 +794,7 @@ padding-bottom: 50px;
   position: absolute;
   right: 59px;
   bottom: 20px;
- opacity: 0;
+ opacity: 1;
   top: calc(25% - -1px);
   
   padding-right: 0.1em;
