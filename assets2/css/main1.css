@@ -34,7 +34,7 @@ section, summary, time, mark, audio, video {
 	
 	p {
 		margin: 0 0 2em 0;
-		color: #ffffff;
+		color: #000000;
 	}	
 
 	h2, h3, h4, h5, h6 {
@@ -118,7 +118,7 @@ section, summary, time, mark, audio, video {
 		.image.main {
 			display: block;
 			margin: 0 0 3em 0;
-			width: 100%;
+			width: 150%;
 			
 		}
 
@@ -143,9 +143,10 @@ section, summary, time, mark, audio, video {
 /* Main ######################################################################################*/
 
 	#main {
-		padding: 3em 0 0 0 ;
+		padding: em 0 0 0 ;
 		color: #000000;
-		background-color: rgb(244, 244, 244);
+		background-color: #E3E0D7;
+		padding-right: 31.5em;
 	}
 	 
 	h1  {
@@ -154,7 +155,7 @@ section, summary, time, mark, audio, video {
 	
 p{padding-bottom: 2em;}
 
-#contact{background-color: rgb(244, 244, 244);}
+#contact{background-color: #E3E0D7;}
 /* Main ######################################################################################*/
 		@media screen and (max-width: 736px) {
 
@@ -167,10 +168,57 @@ p{padding-bottom: 2em;}
 /* Wrapper */
 
 	#wrapper > * > .inner {
-		width: 100%;
+		width: 500%;
 		max-width: 68em;
 		margin: 0 auto;
 		padding: 0 2.5em;
 	}
 
+	@media screen and (max-width: 500px) {
+
+		#wrapper > * > .inner {
+			width: 100%;
+			max-width: 68em;
+			margin: 0 auto;
+			padding: 0 2.5em;
+		}
+
+		.image.main {
+			display: block;
+			margin: 0 0 3em 0;
+			width: 100%;
+			
+		}
+
+		#main {
+			padding: 3em 0 0 0 ;
+			color: #000000;
+			background-color: #E3E0D7;
+			
+		}
 		
+
+	}
+
+	@media screen and (max-width: 1080px) {
+
+		#wrapper > * > .inner {
+			width: 100%;
+			max-width: 68em;
+			margin: 0 auto;
+			padding: 0 2.5em;
+		}
+
+		.image.main {
+			display: block;
+			margin: 0 0 3em 0;
+			width: 100%;
+			
+		}
+		#main {
+			padding: 3em 0 0 0 ;
+			color: #000000;
+			background-color: #E3E0D7;
+			
+		}
+	}
