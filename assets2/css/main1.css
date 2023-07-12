@@ -7,218 +7,229 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
-pre, a, abbr, acronym, address, big, cite,
-code, del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var, b,
-u, i, center, dl, dt, dd, ol, ul, li, fieldset,
-form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside,
-canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5,
+h6, p,blockquote,pre,a,abbr,acronym,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,
+dt,dd,ol,ul,li,fieldset,form,
+label,legend,table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,embed,figure,figcaption,
+footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
 	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: "Source Sans Pro", Helvetica, sans-serif;
-	vertical-align: baseline;}
-/* Basic */		
-		
+	vertical-align: baseline;
+}
 
-	strong, b {
-		font-weight: 900;
-	}
-	
-	
-	p {
-		margin: 0 0 2em 0;
-		color: #000000;
-	}	
+/* Basic */
 
-	h2, h3, h4, h5, h6 {
-		font-weight: 900;
-		line-height: 1.5;
-		margin: 0 0 2em 0;	
-	}
-	h2 {
-		font-size: 1.1em;
-		
-	}
 
-	h3 {
-		font-size: 1em;
-	}
+strong,
+b {
+	font-weight: 900;
+}
 
-	h4 {
-		font-size: 0.8em;
-	}
 
-	h5 {
-		font-size: 0.8em;
-	}
+p {
+	margin: 0 0 2em 0;
+	color: #000000;
+}
 
-	h6 {
-		font-size: 0.8em;
-	}
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 900;
+	line-height: 1.5;
+	margin: 0 0 2em 0;
+}
+
+h2 {
+	font-size: 1.1em;
+
+}
+
+h3 {
+	font-size: 1em;
+}
+
+h4 {
+	font-size: 0.8em;
+}
+
+h5 {
+	font-size: 0.8em;
+}
+
+h6 {
+	font-size: 0.8em;
+}
 
 /* Section/Article  ######################################################################################################*/
 
-	
+
 
 /* Image */
 
-	.image {
-		border-radius: 4px;
-		border: 0;
-		display: inline-block;
-		position: relative;
-		padding-bottom: 2em
-	;
+.image {
+	border-radius: 4px;
+	border: 0;
+	display: inline-block;
+	position: relative;
+	padding-bottom: 2em;
+}
+
+.image img {
+	border-radius: 4px;
+	display: block;
+	padding-bottom: 1em;
+
+}
+
+.image.left,
+.image.right {
+	max-width: 40%;
+}
+
+.image.left img,
+.image.right img {
+	width: 100%;
+}
+
+.image.left {
+	float: left;
+	padding: 0 1.5em 1em 0;
+	top: 0.25em;
+}
+
+.image.right {
+	float: right;
+	padding: 0 0 1em 1.5em;
+	top: 0.25em;
+}
+
+.image.fit {
+	display: block;
+	margin: 0 0 2em 0;
+	width: 100%;
+}
+
+.image.fit img {
+	width: 100%;
+}
+
+.image.main {
+	display: block;
+	margin: 0 0 3em 0;
+	width: 150%;
+
+}
+
+.image.main img {
+	width: 100%;
+}
+
+@media screen and (max-width: 736px) {
+
+	.image.main {
+		margin: 0 0 2em 0;
 	}
 
-		.image img {
-			border-radius: 4px;
-			display: block;
-			padding-bottom: 1em;
-			
-		}
-
-		.image.left, .image.right {
-			max-width: 40%;
-		}
-
-			.image.left img, .image.right img {
-				width: 100%;
-			}
-
-		.image.left {
-			float: left;
-			padding: 0 1.5em 1em 0;
-			top: 0.25em;
-		}
-
-		.image.right {
-			float: right;
-			padding: 0 0 1em 1.5em;
-			top: 0.25em;
-		}
-
-		.image.fit {
-			display: block;
-			margin: 0 0 2em 0;
-			width: 100%;
-		}
-
-			.image.fit img {
-				width: 100%;
-			}
-
-		.image.main {
-			display: block;
-			margin: 0 0 3em 0;
-			width: 150%;
-			
-		}
-
-			.image.main img {
-				width: 100%;
-			}
-
-			@media screen and (max-width: 736px) {
-
-				.image.main {
-					margin: 0 0 2em 0;
-				}
-
-			}
+}
 
 
 
 /* Header */
 
-	
-	
+
+
 /* Main ######################################################################################*/
+
+#main {
+	padding: em 0 0 0;
+	color: #000000;
+	background-color: #E3E0D7;
+	padding-right: 31.5em;
+}
+
+h1 {
+	padding-top: 1em;
+}
+
+p {
+	padding-bottom: 2em;
+}
+
+#contact {
+	background-color: rgb(244, 244, 244);
+}
+
+/* Main ######################################################################################*/
+@media screen and (max-width: 736px) {
 
 	#main {
-		padding: em 0 0 0 ;
-		color: #000000;
-		background-color: #E3E0D7;
-		padding-right: 31.5em;
+		padding: 0em 0 4em 0;
 	}
-	 
-	h1  {
-		padding-top: 1em;
-	} 
-	
-p{padding-bottom: 2em;}
 
-#contact{background-color: #E3E0D7;}
-/* Main ######################################################################################*/
-		@media screen and (max-width: 736px) {
-
-			#main {
-				padding: 0em 0 4em 0 ;
-			}
-
-		}
+}
 
 /* Wrapper */
 
-	#wrapper > * > .inner {
-		width: 500%;
+#wrapper>*>.inner {
+	width: 500%;
+	max-width: 68em;
+	margin: 0 auto;
+	padding: 0 2.5em;
+}
+
+@media screen and (max-width: 500px) {
+
+	#wrapper>*>.inner {
+		width: 100%;
 		max-width: 68em;
 		margin: 0 auto;
 		padding: 0 2.5em;
 	}
 
-	@media screen and (max-width: 500px) {
-
-		#wrapper > * > .inner {
-			width: 100%;
-			max-width: 68em;
-			margin: 0 auto;
-			padding: 0 2.5em;
-		}
-
-		.image.main {
-			display: block;
-			margin: 0 0 3em 0;
-			width: 100%;
-			
-		}
-
-		#main {
-			padding: 3em 0 0 0 ;
-			color: #000000;
-			background-color: #E3E0D7;
-			
-		}
-		
+	.image.main {
+		display: block;
+		margin: 0 0 3em 0;
+		width: 100%;
 
 	}
 
-	@media screen and (max-width: 1080px) {
+	#main {
+		padding: 3em 0 0 0;
+		color: #000000;
+		background-color: #E3E0D7;
 
-		#wrapper > * > .inner {
-			width: 100%;
-			max-width: 68em;
-			margin: 0 auto;
-			padding: 0 2.5em;
-		}
-
-		.image.main {
-			display: block;
-			margin: 0 0 3em 0;
-			width: 100%;
-			
-		}
-		#main {
-			padding: 3em 0 0 0 ;
-			color: #000000;
-			background-color: #E3E0D7;
-			
-		}
 	}
+
+
+}
+
+@media screen and (max-width: 1080px) {
+
+	#wrapper>*>.inner {
+		width: 100%;
+		max-width: 68em;
+		margin: 0 auto;
+		padding: 0 2.5em;
+	}
+
+	.image.main {
+		display: block;
+		margin: 0 0 3em 0;
+		width: 100%;
+
+	}
+
+	#main {
+		padding: 3em 0 0 0;
+		color: #000000;
+		background-color: #E3E0D7;
+
+	}
+}

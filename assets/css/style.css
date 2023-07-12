@@ -8,13 +8,23 @@
 
 @font-face {
   font-family: 'gmc';
-  src: url('/Font/NokianvirallinenkirjasinREGULAR.ttf'), url('/Font/NokianvirallinenkirjasinREGULAR.ttf')  format('truetype'), url('/Font/NokianvirallinenkirjasinREGULAR.ttf') format('ttf');
+  src: url('/Font/NokianvirallinenkirjasinREGULAR.ttf'), url('/Font/NokianvirallinenkirjasinREGULAR.ttf') format('truetype'), url('/Font/NokianvirallinenkirjasinREGULAR.ttf') format('ttf');
   font-weight: normal;
   font-style: normal;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
-.arrow2{text-align: center; color: #ffffff; font-size: 30px; margin-top: 1em;}
-.arrow2:hover{color: #000;}
+
+.arrow2 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  margin-top: 1em;
+}
+
+.arrow2:hover {
+  color: #000;
+}
 
 /*--------------------------------------------------------------
 # General
@@ -25,7 +35,7 @@ body {
   font-family: "Poppins", helvetica;
 
   font-size: 15px;
-  
+
   line-height: 20px;
   letter-spacing: 0.02em;
   overflow-x: hidden;
@@ -41,7 +51,7 @@ h4,
 h5,
 h6 {
   margin: 0;
-  
+
   font-family: "Poppins", helvetica;
   letter-spacing: 0.1em;
 }
@@ -54,12 +64,13 @@ h1 {
 
 h2 {
   color: #000000;
-  
+
 }
-h3{
+
+h3 {
 
   color: #000000;
-  
+
 
 
 }
@@ -108,16 +119,24 @@ p {
   letter-spacing: 0.1em;
   height: 35px;
   line-height: 3px;
-  padding: 0 5px ;
+  padding: 0 5px;
   text-transform: uppercase;
   font-weight: 1000;
+
 }
 
 .btn:hover,
 .btn:focus {
   color: #535353;
+
+
+
+
 }
-.btn2{padding-top: 2em; }
+
+.btn2 {
+  padding-top: 2em;
+}
 
 
 
@@ -166,8 +185,10 @@ p {
   font-size: 17px;
   color: #ffffff;
   border: 9px;
-  padding: 0 20px  0;
+  padding: 0 20px 0;
   border-radius: 9px;
+  font-family: "Poppins", helvetica;
+  text-transform: capitalize;
 }
 
 .main-content {
@@ -193,13 +214,13 @@ p {
 
 .back-to-top i {
   font-size: 28px;
-  color: #ffffff;
+  color: #E3E0D7;
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #696969;
-  color: #ffffff;
+  background: #3a350047;
+  color: #E3E0D7;
 }
 
 .back-to-top.active {
@@ -215,7 +236,7 @@ p {
   z-index: 997;
   padding: 15px 0;
   background-color: #E3E0D7;
-  
+
   top: -100%;
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0);
 }
@@ -300,6 +321,11 @@ p {
 .navbar .active:focus,
 .navbar li:hover>a {
   color: #000000;
+  background-color: #dccd2c00;
+  border: 1px solid #000000;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  margin-left: 1em;
+
 }
 
 .navbar .dropdown ul {
@@ -433,12 +459,16 @@ p {
   color: #969696;
   padding-bottom: 100px;
   letter-spacing: 0.5em;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  margin-top: 3em;
+  border: #DCCC2C;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
   color: #ffffff;
+
 }
 
 .navbar-mobile .getstarted,
@@ -601,7 +631,7 @@ p {
   width: 100%;
   height: auto;
   background: #E3E0D7;
-  padding-top: 129px;
+  padding-top: 110px;
 }
 
 #about .div-img-bg {
@@ -625,14 +655,14 @@ p {
 
 #about .about-descr .p-heading {
   font-family: "Poppins", helvetica;
-  font-size: 24px;
+  font-size: 20px;
   text-align: left;
   text-transform: capitalize;
   line-height: 1.5em;
   max-width: 100%;
   padding-top: 5em;
-  
- 
+
+
 }
 
 #about .about-descr .separator {
@@ -641,6 +671,7 @@ p {
   text-align: left;
   font-family: "Poppins", helvetica;
 }
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -696,11 +727,11 @@ p {
 #portfolio {
   position: relative;
   padding-bottom: 55px;
-  background-color:#E3E0D7 ;
-  
-  
- 
- 
+  background-color: #E3E0D7;
+
+
+
+
 }
 
 #portfolio #portfolio-flters {
@@ -710,7 +741,7 @@ p {
   text-align: center;
   border-radius: 50px;
   padding: 2px 15px;
-  
+
 }
 
 #portfolio #portfolio-flters li {
@@ -721,7 +752,7 @@ p {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #969696;
+  color: #000000;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
@@ -729,6 +760,8 @@ p {
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
   color: #000000;
+  background-color: #DCCC2C;
+  border-radius: 5px;
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -737,15 +770,16 @@ p {
 
 #portfolio .portfolio-item {
   margin-bottom: 30px;
-  
-}
-.img-fluid{
-margin-top: 2em;
 
-border: 10px;
-  
+}
+
+.img-fluid {
+  margin-top: 2em;
+
+  border: 10px;
+
   background-color: #3A3500;
-  padding: 0.9em 0.9em 9em 0.9em;
+  padding: 0.9em 0.9em 8.5em 0.9em;
 
 
 }
@@ -753,30 +787,31 @@ border: 10px;
 #portfolio .portfolio-item .portfolio-info {
   opacity: 1;
   position: absolute;
-  
+
   left: 14px;
   right: 15px;
   bottom: 0;
   z-index: 3;
   transition: all ease-in-out 0.3s;
   background: #3A3500;
-padding-bottom: 50px;
+  padding-bottom: 35px;
 
 
-  
+
 }
 
 
 #portfolio .portfolio-item .portfolio-info h4 {
- 
+
   font-size: 18px;
   color: #ffffff;
   font-weight: 600;
   margin-bottom: 10px;
   text-align: left;
-  padding-top: em;
+  padding-top: 0.5em;
   padding-left: 0.8em;
-  font-family: 'Silkscreen', cursive ;
+  font-family: 'Silkscreen', cursive;
+  margin-left: -0.5em;
 }
 
 #portfolio .portfolio-item .portfolio-info p {
@@ -786,37 +821,60 @@ padding-bottom: 50px;
   text-align: left;
   padding-left: 1em;
   width: 265px;
-  font-family: 'Silkscreen', cursive ;
+  font-family: 'Silkscreen', cursive;
+  margin-left: -1.2em;
+  padding-top: 1em;
 }
 
-#portfolio .portfolio-item .portfolio-info .preview-link,
+.project {
+
+  background-color: #E3E0D7;
+  padding: 19px 15px 15px;
+  color: #000000;
+  font-size: 0.8em;
+
+
+
+}
+
+.tpro {
+
+
+  font-size: 1.5em;
+
+
+}
+
+/* #portfolio .portfolio-item .portfolio-info .preview-link,
 #portfolio .portfolio-item .portfolio-info .details-link {
   position: absolute;
-  right: 59px;
+  right: -55px;
   bottom: 20px;
  opacity: 1;
-  top: calc(25% - -1px);
-  
-  padding-right: 0.1em;
+  top: calc(49% - -1px);
+  color: #ffffff;
+  padding-right: 2em;
+  font-size: 2.5em;
   
   
 
 
-}
+}*/
 
 #portfolio .portfolio-item .portfolio-info .preview-link:hover,
 #portfolio .portfolio-item .portfolio-info .details-link:hover {
   color: #ffffff;
+  
 }
 
 #portfolio .portfolio-item .portfolio-info .details-link {
   right: 8px;
-  
+
 }
 
-#portfolio  .portfolio-item:hover  .portfolio-info  {
+#portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
-  bottom: 25px;
+  bottom: 10px;
   background-color: #3A3500;
 }
 
@@ -903,6 +961,7 @@ padding-bottom: 50px;
     transform: rotate(360deg);
   }
 }
+
 /*--------------------------------------------------------------
 # Contact End
 --------------------------------------------------------------*/
@@ -971,8 +1030,8 @@ padding-bottom: 50px;
  */
 @media (min-width: 768px) and (max-width: 991px) {
 
-/* on phne show text*/
-  
+  /* on phne show text*/
+
 
 
 
@@ -1012,6 +1071,7 @@ padding-bottom: 50px;
 
   #about .div-img-bg {
     padding: 0;
+    margin-top: -5em;
   }
 
   #about .div-img-bg .about-img img {
@@ -1021,6 +1081,7 @@ padding-bottom: 50px;
 
   #about .about-descr .p-heading {
     font-size: 20px;
+    margin-top: -2.5em;
   }
 
   #about .about-descr .separator {
@@ -1058,7 +1119,7 @@ padding-bottom: 50px;
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 @media (max-width: 767px) {
-/* on phne show text*/
+  /* on phne show text*/
 
 
   /* Navbar */
@@ -1097,16 +1158,19 @@ padding-bottom: 50px;
 
   #about .div-img-bg {
     padding: 0;
-    
+    margin-top: -5em;
+
   }
 
   #about .div-img-bg .about-img img {
     margin-top: 0%;
     margin-left: calc(0% - 0px);
+
   }
 
   #about .about-descr .p-heading {
     font-size: 20px;
+    margin-top: -2.5em;
   }
 
   #about .about-descr .separator {
@@ -1144,7 +1208,7 @@ padding-bottom: 50px;
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 @media (max-width: 600px) {
-/* on phne show text*/
+  /* on phne show text*/
 
 
   /* Navbar */
@@ -1229,7 +1293,7 @@ padding-bottom: 50px;
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 @media (max-width: 480px) {
-/* on phne show text*/
+  /* on phne show text*/
 
 
   /* Navbar */
@@ -1313,7 +1377,7 @@ padding-bottom: 50px;
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 @media (max-width: 320px) {
-/* on phne show text*/
+  /* on phne show text*/
 
 
   /* Navbar */
