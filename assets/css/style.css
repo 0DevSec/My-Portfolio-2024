@@ -113,7 +113,7 @@ p {
 .btn {
   background: #DCCC2C;
   border: medium none;
-  border-radius: 4px;
+  border-radius: 2px;
   color: #000000;
   font-size: 17px;
   letter-spacing: 0.1em;
@@ -128,18 +128,39 @@ p {
 .btn:hover,
 .btn:focus {
   color: #535353;
-
-
-
-
+border: 2px solid #000000;
+padding: 0.5em 0.5em 0.5em 0.5em;
+transition: all 0.3s ease-in-out 0s;
 }
 
 .btn2 {
   padding-top: 2em;
 }
 
+.btn4{
+
+  background: #DCCC2C;
+  border: medium none;
+  border-radius: 2px;
+  color: #000000;
+  font-size: 17px;
+  letter-spacing: 0.1em;
+  height: 35px;
+  line-height: 3px;
+  padding: 0 5px;
+  text-transform: uppercase;
+  font-weight: 1000;
 
 
+}
+.btn4:hover,
+.btn4:focus {
+  color: #535353;
+
+background-color: #00000000;
+transition: all 0.5s ease-in-out 0s;
+
+}
 
 
 .padDiv {
@@ -883,6 +904,21 @@ p {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.num{
+
+  background-color: #E48B8D;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+
+}
+.emali1{
+
+background-color: #A0D5A4;
+padding: 0.5em 0.5em 0.5em 0.5em;
+
+}
+
+
+
 #contact {
   height: auto;
   width: 100%;
@@ -896,6 +932,7 @@ p {
 
 .contact-details li {
   padding-bottom: 10px;
+  padding-top: 1em;
 }
 
 #contact input,
