@@ -23,7 +23,9 @@ footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video 
 }
 
 /* Basic */
-
+html {
+	scroll-behavior: smooth;
+  }
 
 strong,
 b {
