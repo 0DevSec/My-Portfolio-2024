@@ -16,7 +16,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 
 .arrow2 {
-  text-align: center;
+  text-align: cente;
   color: #ffffff;
   font-size: 30px;
   margin-top: 1em;
@@ -129,14 +129,16 @@ p {
 
 .btn:hover,
 .btn:focus {
-  color: #535353;
-border: 2px solid #000000;
+  color: #ffffff;
+  background-color: #00000062;
+border: 2px solid #DCCC2C;
 padding: 0.5em 0.5em 0.5em 0.5em;
-transition: all 0.3s ease-in-out 0s;
+transition: all 0.4s ease-in-out 0s;
 }
 
 .btn2 {
-  padding-top: 2em;
+  padding-top: 3.5em;
+ 
 }
 
 .btn4{
@@ -584,7 +586,7 @@ z-index: -1;
 .hero-content h1 {
   font-size: 39px;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   text-transform: uppercase;
   color: #fff;
   font-family: 'Silkscreen', cursive;
@@ -592,13 +594,14 @@ z-index: -1;
 }
 
 .hero-content p {
-  font-size: 13px;
+  font-size: 15px;
   letter-spacing: 3px;
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   text-transform: capitalize;
+  text-align: left;
   color: #fff;
-  font-weight: 500;
+  font-weight: 900;
   font-family: 'Silkscreen', cursive;
 
 }
@@ -607,11 +610,13 @@ z-index: -1;
   float: left;
   margin-right: 20px;
  
+ 
 }
 
 .hero-content .list-social li i {
   color: #fff;
-  font-size: 15px;
+  font-size: 25px;
+  
   
 }
 
