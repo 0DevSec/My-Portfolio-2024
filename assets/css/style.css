@@ -32,7 +32,7 @@ html {
 # General
 --------------------------------------------------------------*/
 body {
-  background: rgb(244, 244, 244);
+  background: #FAF9F9;
   color: #000000;
   font-family: "Poppins", helvetica;
 
@@ -113,10 +113,10 @@ p {
 }
 
 .btn {
-  background: #DCCC2C;
+  background: #009999;
   border: medium none;
   border-radius: 2px;
-  color: #000000;
+  color: #ffffff;
   font-size: 17px;
   letter-spacing: 0.1em;
   height: 35px;
@@ -131,7 +131,7 @@ p {
 .btn:focus {
   color: #ffffff;
   background-color: #00000062;
-border: 2px solid #DCCC2C;
+border: 2px solid #009999;
 padding: 0.5em 0.5em 0.5em 0.5em;
 transition: all 0.4s ease-in-out 0s;
 }
@@ -143,10 +143,10 @@ transition: all 0.4s ease-in-out 0s;
 
 .btn4{
 
-  background: #DCCC2C;
+  background: #009999;
   border: medium none;
   border-radius: 2px;
-  color: #000000;
+  color: #ffffff;
   font-size: 17px;
   letter-spacing: 0.1em;
   height: 35px;
@@ -585,7 +585,7 @@ z-index: -1;
 
 .hero-content h1 {
   font-size: 39px;
-  font-weight: 700;
+  font-weight: 900;
   margin-bottom: 30px;
   text-transform: uppercase;
   color: #fff;
@@ -695,9 +695,10 @@ z-index: -1;
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #DCCC2C;
+  border: 20px solid #009999;
   border-radius: 2px;
-  background-color: #DCCC2C;
+  background-color: #009999;
+  
 }
 
 #about .div-img-bg .about-img img {
@@ -743,10 +744,10 @@ z-index: -1;
 .services-block span {
   margin: 10px 0;
   position: relative;
-  font-size: 13px;
+  font-size: 19px;
   color: #000000;
   letter-spacing: 0.1em;
-  font-weight: 500;
+  font-weight: 800;
   text-transform: uppercase;
   display: block;
 }
@@ -818,8 +819,8 @@ z-index: -1;
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  color: #000000;
-  background-color: #DCCC2C;
+  color: #ffffff;
+  background-color: #009999;
   border-radius: 5px;
 }
 
@@ -837,7 +838,7 @@ z-index: -1;
 
   border: 10px;
 
-  background-color: #3A3500;
+  background-color: #FAF9F9;
   padding: 0.9em 0.9em 8.5em 0.9em;
 
 
@@ -852,7 +853,7 @@ z-index: -1;
   bottom: 0;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: #3A3500;
+  background: #FAF9F9;
   padding-bottom: 35px;
 
 
@@ -863,7 +864,7 @@ z-index: -1;
 #portfolio .portfolio-item .portfolio-info h4 {
 
   font-size: 18px;
-  color: #ffffff;
+  color: #000000;
   font-weight: 600;
   margin-bottom: 10px;
   text-align: left;
@@ -887,9 +888,9 @@ z-index: -1;
 
 .project {
 
-  background-color: #E3E0D7;
+  background-color: #000000;
   padding: 19px 15px 15px;
-  color: #000000;
+  color: #ffffff;
   font-size: 0.8em;
 
 
@@ -934,7 +935,7 @@ z-index: -1;
 #portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
   bottom: 10px;
-  background-color: #3A3500;
+  background-color: #FAF9F9;
 }
 
 
