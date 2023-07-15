@@ -180,7 +180,7 @@
    */
   new Swiper('.services-slider', {
     speed: 600,
-    loop: true,
+    loop: false,
     autoplay: {
       delay: 11000,
       disableOnInteraction: false

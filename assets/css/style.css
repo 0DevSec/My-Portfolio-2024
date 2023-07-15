@@ -32,7 +32,7 @@ html {
 # General
 --------------------------------------------------------------*/
 body {
-  background: #FAF9F9;
+  background: #000000;
   color: #000000;
   font-family: "Poppins", helvetica;
 
@@ -203,12 +203,12 @@ transition: all 0.5s ease-in-out 0s;
 
 .mb-30 {
   margin-bottom: px;
-  background-color: #000000;
+  background-color: #E3E0D7;
   letter-spacing: 0.1em;
   line-height: 1.7em;
   float: left;
   font-size: 17px;
-  color: #ffffff;
+  color: #000000;
   border: 9px;
   padding: 0 20px 0;
   border-radius: 9px;
@@ -820,7 +820,7 @@ z-index: -1;
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
   color: #ffffff;
-  background-color: #009999;
+  background-color: #000000;
   border-radius: 5px;
 }
 
@@ -838,7 +838,7 @@ z-index: -1;
 
   border: 10px;
 
-  background-color: #FAF9F9;
+  background-color: #000000;
   padding: 0.9em 0.9em 8.5em 0.9em;
 
 
@@ -853,7 +853,7 @@ z-index: -1;
   bottom: 0;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: #FAF9F9;
+  background: #000000;
   padding-bottom: 35px;
 
 
@@ -864,7 +864,7 @@ z-index: -1;
 #portfolio .portfolio-item .portfolio-info h4 {
 
   font-size: 18px;
-  color: #000000;
+  color: #ffffff;
   font-weight: 600;
   margin-bottom: 10px;
   text-align: left;
@@ -888,9 +888,9 @@ z-index: -1;
 
 .project {
 
-  background-color: #000000;
+  background-color: #E3E0D7;
   padding: 19px 15px 15px;
-  color: #ffffff;
+  color: #000000;
   font-size: 0.8em;
 
 
@@ -935,7 +935,7 @@ z-index: -1;
 #portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
   bottom: 10px;
-  background-color: #FAF9F9;
+  background-color: #000000;
 }
 
 
@@ -1047,7 +1047,7 @@ padding: 0.5em 0.5em 0.5em 0.5em;
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #ffffff;
+  background: #E3E0D7;
   padding-top: 50px;
   padding-bottom: 50px;
 }
