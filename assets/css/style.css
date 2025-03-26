@@ -34,7 +34,7 @@ html {
 body {
   background: #000000;
   color: #000000;
-  font-family: "Poppins", helvetica;
+  font-family: sans-serif;
 
   font-size: 15px;
 
@@ -54,7 +54,7 @@ h5,
 h6 {
   margin: 0;
 
-  font-family: "Poppins", helvetica;
+  font-family: sans-serif;
   letter-spacing: 0.1em;
 }
 
@@ -98,7 +98,7 @@ p {
   font-size: 15px;
   color: #000000;
   line-height: 28px;
-  font-family: "Poppins", helvetica;
+  font-family: sans-serif;
 
 }
 
@@ -117,21 +117,22 @@ p {
   border: medium none;
   border-radius: 2px;
   color: #ffffff;
-  font-size: 17px;
+  font-size: 20px;
   letter-spacing: 0.1em;
   height: 35px;
   line-height: 3px;
   padding: 0 5px;
   text-transform: uppercase;
-  font-weight: 1000;
+  font-weight: 150px;
+  font-family: sans-serif;
 
 }
 
 .btn:hover,
 .btn:focus {
   color: #ffffff;
-  background-color: #00000062;
-border: 2px solid #009999;
+  background-color: #00000065;
+border: 2px solid #000000;
 padding: 0.5em 0.5em 0.5em 0.5em;
 transition: all 0.4s ease-in-out 0s;
 }
@@ -153,13 +154,14 @@ transition: all 0.4s ease-in-out 0s;
   line-height: 3px;
   padding: 0 5px;
   text-transform: uppercase;
-  font-weight: 1000;
+  font-weight: 150px;
+  font-family: sans-serif;
 
 
 }
 .btn4:hover,
 .btn4:focus {
-  color: #535353;
+  color: #000000;
 
 background-color: #00000000;
 transition: all 0.5s ease-in-out 0s;
@@ -212,7 +214,7 @@ transition: all 0.5s ease-in-out 0s;
   border: 9px;
   padding: 0 20px 0;
   border-radius: 9px;
-  font-family: "Poppins", helvetica;
+  font-family: sans-serif;
   text-transform: capitalize;
 }
 
@@ -278,8 +280,7 @@ transition: all 0.5s ease-in-out 0s;
   line-height: 1;
   font-weight: 600;
   letter-spacing: 1px;
-  font-family: "Playfair Display", sans-serif;
-  font-style: italic;
+  font-family: sans-serif;
 }
 
 #header .logo a {
@@ -325,7 +326,7 @@ transition: all 0.5s ease-in-out 0s;
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Poppins", helvetica;
+  font-family: sans-serif;
   text-transform: uppercase;
   font-size: 17px;
   font-weight: 500;
@@ -589,7 +590,7 @@ z-index: -1;
   margin-bottom: 30px;
   text-transform: uppercase;
   color: #fff;
-  font-family: 'Silkscreen', cursive;
+  font-family: sans-serif;
   
 }
 
@@ -602,7 +603,7 @@ z-index: -1;
   text-align: left;
   color: #fff;
   font-weight: 900;
-  font-family: 'Silkscreen', cursive;
+  font-family: sans-serif;
 
 }
 
@@ -714,13 +715,13 @@ z-index: -1;
 }
 
 #about .about-descr .p-heading {
-  font-family: "Poppins", helvetica;
-  font-size: 20px;
+  font-family: sans-serif;
+  font-size: 39px;
   text-align: left;
   text-transform: capitalize;
   line-height: 1.5em;
   max-width: 100%;
-  padding-top: 5em;
+  padding-top: 0.1em;
 
 
 }
@@ -729,7 +730,7 @@ z-index: -1;
   max-width: 100%;
   margin-bottom: 0;
   text-align: left;
-  font-family: "Poppins", helvetica;
+  font-family: sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -870,7 +871,7 @@ z-index: -1;
   text-align: left;
   padding-top: 0.5em;
   padding-left: 0.8em;
-  font-family: 'Silkscreen', cursive;
+  font-family: sans-serif;
   margin-left: -0.5em;
 }
 
@@ -881,7 +882,7 @@ z-index: -1;
   text-align: left;
   padding-left: 1em;
   width: 265px;
-  font-family: 'Silkscreen', cursive;
+  font-family: sans-serif;
   margin-left: -1.2em;
   padding-top: 1em;
 }
@@ -1050,6 +1051,8 @@ padding: 0.5em 0.5em 0.5em 0.5em;
   background: #E3E0D7;
   padding-top: 50px;
   padding-bottom: 50px;
+  font-family: sans-serif;
+
 }
 
 #footer .socials-media {
@@ -1089,10 +1092,14 @@ padding: 0.5em 0.5em 0.5em 0.5em;
   font-weight: 500;
   margin-top: 0;
   text-transform: uppercase;
+  font-family: sans-serif;
+
 }
 
 .credits {
   font-size: 13px;
+  font-family: sans-serif;
+
 }
 
 /** Width between 1200x to 0
@@ -1252,8 +1259,8 @@ padding: 0.5em 0.5em 0.5em 0.5em;
   }
 
   #about .about-descr .p-heading {
-    font-size: 20px;
-    margin-top: -2.5em;
+    font-size: 29px;
+    margin-top: 1.5em;
   }
 
   #about .about-descr .separator {
