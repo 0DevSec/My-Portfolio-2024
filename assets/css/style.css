@@ -28,6 +28,15 @@
 html {
   scroll-behavior: smooth;
 }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("/ido/css-ido/fonts/icomoon/icomoon.eot?srf3rx");
+  src: url("/ido/css-ido/fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("/ido/css-ido/fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("/ido/css-ido/fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("/ido/css-ido/fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -264,7 +273,7 @@ transition: all 0.5s ease-in-out 0s;
   padding: 15px 0;
   background-color: #E3E0D7;
 
-  top: -100%;
+  top: 100%;
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0);
 }
 
@@ -428,6 +437,7 @@ transition: all 0.5s ease-in-out 0s;
   line-height: 0;
   transition: 0.5s;
   rotate: 90deg;
+  
 }
 
 .mobile-nav-toggle.bi-x {
@@ -716,10 +726,11 @@ z-index: -1;
 
 #about .about-descr .p-heading {
   font-family: sans-serif;
-  font-size: 39px;
+  font-size: 34px;
   text-align: left;
   text-transform: capitalize;
-  line-height: 1.5em;
+  line-height: 1.2em;
+  letter-spacing: normal;
   max-width: 100%;
   padding-top: -0.9em;
 
@@ -737,7 +748,7 @@ z-index: -1;
 # Services
 --------------------------------------------------------------*/
 #services {
-  background: #E3E0D7;
+  background: #EAEAEA;
   position: relative;
   padding-bottom: 80px;
 }
@@ -854,7 +865,7 @@ z-index: -1;
   bottom: 0;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: #000000;
+  background: #c0b9b900;
   padding-bottom: 35px;
 
 
@@ -936,7 +947,7 @@ z-index: -1;
 #portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
   bottom: 10px;
-  background-color: #000000;
+  background-color: #00000000;
 }
 
 
@@ -1048,7 +1059,7 @@ padding: 0.5em 0.5em 0.5em 0.5em;
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #E3E0D7;
+  background: #EAEAEA;
   padding-top: 50px;
   padding-bottom: 50px;
   font-family: sans-serif;
@@ -1164,7 +1175,7 @@ padding: 0.5em 0.5em 0.5em 0.5em;
 
   #about .about-descr .p-heading {
     font-size: 20px;
-    margin-top: -2.5em;
+    margin-top: 2em;
   }
 
   #about .about-descr .separator {

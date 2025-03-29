@@ -8,6 +8,10 @@
 (function() {
   "use strict";
 
+
+ 
+
+
   /**
    * Easy selector helper function
    */
@@ -171,7 +175,7 @@
       loop: true,
       typeSpeed: 1,
       backSpeed: 7,
-      backDelay: 3000
+      backDelay: 2500
     });
   }
 
@@ -259,5 +263,7 @@
       clickable: true
     }
   });
+
+  
 
 })()
