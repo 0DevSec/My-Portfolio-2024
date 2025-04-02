@@ -146,8 +146,8 @@ p {
 
 .btn:hover,
 .btn:focus {
-  color: #ffffff;
-  background-color: #00000065;
+  color: #000000;
+  background-color: #dccd2ccf;
 border: 2px solid #000000;
 padding: 0.5em 0.5em 0.5em 0.5em;
 transition: all 0.4s ease-in-out 0s;
