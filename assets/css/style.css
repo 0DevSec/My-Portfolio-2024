@@ -41,8 +41,20 @@ html {
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-
-
+mark {
+  margin: 0 -0.4em;
+  padding: 0.1em 0.4em;
+  border-radius: 8px 4px;
+  background: transparent;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 225, 0, 0.1),
+    rgba(220, 204, 44, 1) 4%,
+    rgba(255, 225, 0, 0.3)
+  );
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
 
 
 
@@ -722,9 +734,9 @@ z-index: -1;
 
 #about .div-img-bg .about-img img {
   width: 100%;
-  box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, 0.14);
-  margin-top: -px;
-  margin-left: px;
+  box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, 0.203);
+  margin-top: -32px;
+  margin-left: 48px;
   height: 396px;
   -o-object-fit: cover;
   object-fit: cover;
@@ -734,13 +746,13 @@ z-index: -1;
 
 #about .about-descr .p-heading {
   font-family: sans-serif;
-  font-size: 24px;
+  font-size: 20px;
+  font-weight: bold;
   text-align: left;
-  text-transform: capitalize;
   line-height: 32px;
   letter-spacing: 2px;
   max-width: 100%;
-  padding-top: 24px;
+  padding-top: 88px;
   padding-bottom: 24px;
  
 
@@ -1041,14 +1053,14 @@ font-size: 24px;
 --------------------------------------------------------------*/
 .num{
 
-  background-color: #E48B8D;
   padding: 0.5em 0.5em 0.5em 0.5em;
+  font-size: 16px;
 
 }
 .emali1{
 
-background-color: #A0D5A4;
 padding: 0.5em 0.5em 0.5em 0.5em;
+font-size: 16px;
 
 }
 
@@ -1267,6 +1279,7 @@ padding: 0.5em 0.5em 0.5em 0.5em;
 
   #about .about-descr .p-heading {
     font-size: 24px;
+
     
   }
 
@@ -1364,7 +1377,7 @@ padding: 0.5em 0.5em 0.5em 0.5em;
 
   #about .about-descr .p-heading {
     font-size: 29px;
-    margin-top: 1.5em;
+    
   }
 
   #about .about-descr .separator {
