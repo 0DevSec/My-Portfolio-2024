@@ -6,12 +6,26 @@
 * License: https://bootstrapmade.com/license/
 */
 
+
+
 @font-face {
-  font-family: 'gmc';
-  src: url('/Font/NokianvirallinenkirjasinREGULAR.ttf'), url('/Font/NokianvirallinenkirjasinREGULAR.ttf') format('truetype'), url('/Font/NokianvirallinenkirjasinREGULAR.ttf') format('ttf');
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'ts-hiba';
+  src: url('/assets/Fonts/TSHiba-Regular.otf');
 }
+@font-face {
+  font-family: 'ts-hiba-bold';
+  src: url('/assets/Fonts/TSHiba-Bold.otf');
+}
+@font-face {
+  font-family: 'ts-hiba-light';
+  src: url('/assets/Fonts/TSHiba-ExtraLight.otf');
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 
@@ -30,13 +44,7 @@ html {
   scroll-behavior: smooth;
 }
 
-@font-face {
-  font-family: 'icomoon';
-  src: url("/ido/css-ido/fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("/ido/css-ido/fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("/ido/css-ido/fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("/ido/css-ido/fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("/ido/css-ido/fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
+
 
 /*--------------------------------------------------------------
 # General
@@ -63,9 +71,7 @@ mark {
 body {
   background: #000000;
   color: #000000;
-  font-family: sans-serif;
-
-  font-size: 15px;
+  font-family: "Kanit", sans-serif;
 
   line-height: 24px;
   letter-spacing: 0.02em;
@@ -83,7 +89,7 @@ h5,
 h6 {
   margin: 0;
 
-  font-family: sans-serif;
+  font-family: "Kanit", sans-serif;
   letter-spacing: 0.1em;
 }
 
@@ -127,7 +133,9 @@ p {
   font-size: 16px;
   color: #000000;
   line-height: 24px;
-  font-family: sans-serif;
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+
 
 }
 
@@ -144,7 +152,7 @@ p {
 .btn {
   background: #009999;
   border: medium none;
-  border-radius: 4px;
+  border-radius: 2px;
   color: #ffffff;
   font-size: 16px;
   letter-spacing: 2px;
@@ -152,7 +160,7 @@ p {
   line-height: 8px;
   padding: 0 8px;
   text-transform: uppercase;
-  font-family: sans-serif;
+  font-family: "Kanit", sans-serif;
 
 }
 
@@ -163,6 +171,7 @@ p {
 border: 2px solid #000000;
 padding: 0.5em 0.5em 0.5em 0.5em;
 transition: all 0.4s ease-in-out 0s;
+border-radius: 0px 16px 0px 16px;
 }
 
 
@@ -179,7 +188,7 @@ transition: all 0.4s ease-in-out 0s;
   line-height: 4px;
   padding: 0 4px;
   text-transform: uppercase;
-  font-family: sans-serif;
+  font-family: "Kanit", sans-serif;
 
 
 }
@@ -237,8 +246,8 @@ transition: all 0.5s ease-in-out 0s;
   color: #000000;
   border: 8px;
   padding: 0 24px 0;
-  border-radius: 4px;
-  font-family: sans-serif;
+  border-radius: 0px 16px 0px 16px;
+  font-family: "Kanit", sans-serif;
   text-transform: capitalize;
 }
 
@@ -259,7 +268,7 @@ transition: all 0.5s ease-in-out 0s;
   background: #000000;
   width: 40px;
   height: 40px;
-  border-radius: 4px;
+  border-radius: 0px 16px 0px 16px;
   transition: all 0.4s;
 }
 
@@ -304,7 +313,7 @@ transition: all 0.5s ease-in-out 0s;
   line-height: 1;
   font-weight: 500;
   letter-spacing: 1px;
-  font-family: sans-serif;
+  font-family: "Kanit", sans-serif;
 }
 
 #header .logo a {
@@ -338,10 +347,12 @@ transition: all 0.5s ease-in-out 0s;
   display: flex;
   list-style: none;
   align-items: center;
+  
 }
 
 .navbar li {
   position: relative;
+  
 }
 
 .navbar a,
@@ -350,7 +361,7 @@ transition: all 0.5s ease-in-out 0s;
   align-items: center;
   justify-content: space-between;
   padding: 8px 0 8px 32px;
-  font-family: sans-serif;
+  font-family: "Kanit", sans-serif;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 500;
@@ -375,6 +386,7 @@ transition: all 0.5s ease-in-out 0s;
   border: 1px solid #000000;
   padding: 0.5em 0.5em 0.5em 0.5em;
   margin-left: 1em;
+  border-radius: 0px 8px 0px 8px;
 
 }
 
@@ -452,6 +464,7 @@ transition: all 0.5s ease-in-out 0s;
   line-height: 0;
   transition: 0.5s;
   rotate: 90deg;
+  
   
 }
 
@@ -615,7 +628,7 @@ z-index: -1;
   margin-bottom: 24px;
   text-transform: uppercase;
   color: #fff;
-  font-family: sans-serif;
+  font-family: "Kanit", sans-serif;
   
 }
 
@@ -628,7 +641,7 @@ z-index: -1;
   text-align: left;
   color: #fff;
   font-weight: 500;
-  font-family: sans-serif;
+  font-family: "Kanit", sans-serif;
 
 }
 
@@ -727,7 +740,7 @@ z-index: -1;
 #about .div-img-bg {
   padding-bottom: 24px;
   border: 16px solid #009999;
-  border-radius: 4px;
+  border-radius: 0px 16px 0px 16px;
   background-color: #009999;
   
 }
@@ -740,14 +753,14 @@ z-index: -1;
   height: 396px;
   -o-object-fit: cover;
   object-fit: cover;
-  border-radius: 4px;
+  border-radius:0px 16px 0px 16px;
 
 }
 
 #about .about-descr .p-heading {
   font-family: sans-serif;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 500;
   text-align: left;
   line-height: 32px;
   letter-spacing: 2px;
@@ -763,7 +776,7 @@ z-index: -1;
   max-width: 100%;
   margin-bottom: 0;
   text-align: left;
-  font-family: sans-serif;
+  font-family: "Kanit", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -800,7 +813,7 @@ border-radius: 4px;
 
 .timeline-yr {
   background: #000000;
-  border-radius: 100%;
+  border-radius: 0px 16px 0px 16px;
   position: absolute;
   width: 72px;
   height: 72px;
@@ -810,7 +823,7 @@ border-radius: 4px;
 .timeline-yr span {
   color: #ffffff;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 100;
   display: block;
   line-height: 72px;
 }
@@ -820,6 +833,8 @@ border-radius: 4px;
   vertical-align: top;
   max-width: 432px;
   margin-left: 104px;
+  font-family: "Kanit", sans-serif;
+
 }
 .timeline-info small {
   color: #474559;
@@ -929,7 +944,7 @@ font-size: 24px;
 #portfolio #portfolio-flters li.filter-active {
   color: #ffffff;
   background-color: #000000;
-  border-radius: 4px;
+  border-radius:0px 8px 0px 8px;
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -948,6 +963,7 @@ font-size: 24px;
 
   background-color: #000000;
   padding: 16px 16px 132px 16px;
+  border-radius: 0px 16px 0px 16px;
 
 
 }
@@ -977,8 +993,8 @@ font-size: 24px;
   margin-bottom: 8px;
   text-align: left;
   padding-top: 8px;
-  padding-left: 16px;
-  font-family: sans-serif;
+  padding-left: 8px;
+  font-family: "Kanit", sans-serif;
   margin-left: -8px;
 }
 
@@ -989,7 +1005,8 @@ font-size: 24px;
   text-align: left;
   padding-left: 16px;
   width: 264px;
-  font-family: sans-serif;
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
   margin-left: -24px;
   padding-top: 16px;
 }
@@ -1000,7 +1017,7 @@ font-size: 24px;
   padding: 16px 16px 16px;
   color: #000000;
   font-size: 12px;
-
+border-radius: 0px 16px 0px 16px;
 
 
 }
@@ -1199,13 +1216,13 @@ font-size: 16px;
   font-weight: 500;
   margin-top: 0;
   text-transform: uppercase;
-  font-family: sans-serif;
+  font-family: "Kanit", sans-serif;
 
 }
 
 .credits {
   font-size: 16px;
-  font-family: sans-serif;
+  font-family: "Kanit", sans-serif;
 
 }
 
