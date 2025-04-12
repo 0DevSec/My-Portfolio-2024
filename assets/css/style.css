@@ -69,8 +69,8 @@ mark {
 
 
 body {
-  background: #EAEAEA;
-  color: #000000;
+  background: #000000;
+  color: #ffffff;
   font-family: "Kanit", sans-serif;
 
   line-height: 24px;
@@ -94,31 +94,31 @@ h6 {
 }
 
 h1 {
-  color: #000000;
+  color: #ffffff;
 
 }
 
 
 h2 {
-  color: #000000;
+  color: #ffffff;
 
 }
 
 h3 {
 
-  color: #000000;
+  color: #ffffff;
 
 
 
 }
 
 h4 {
-  color: #000000;
+  color: #ffffff;
   font-size: 16px;
 }
 
 a {
-  color: #000000;
+  color: #ffffff;
   text-decoration: none !important;
   transition: all 0.5s ease-in-out 0s;
 }
@@ -131,7 +131,7 @@ p {
   margin: 16px 0;
   padding: 0;
   font-size: 16px;
-  color: #000000;
+  color: #ffffff;
   line-height: 24px;
   font-family: "Kanit", sans-serif;
   font-weight: 300;
@@ -150,10 +150,10 @@ p {
 }
 
 .btn {
-  background: #009999;
+  background: #D9FC67;
   border: medium none;
   border-radius: 2px;
-  color: #ffffff;
+  color: #000000;
   font-size: 16px;
   letter-spacing: 2px;
   height: 40px;
@@ -166,8 +166,8 @@ p {
 
 .btn:hover,
 .btn:focus {
-  color: #000000;
-  background-color: #EAEAEA;
+  color: #ffffff;
+  background-color: #303030;
 border: 2px solid #000000;
 padding: 0.5em 0.5em 0.5em 0.5em;
 transition: all 0.4s ease-in-out 0s;
@@ -178,10 +178,10 @@ border-radius: 0px 16px 0px 16px;
 
 .btn4{
 
-  background: #009999;
+  background: #D9FC67;
   border: medium none;
   border-radius: 2px;
-  color: #ffffff;
+  color: #000000;
   font-size: 16px;
   letter-spacing: 1px;
   height: 32px;
@@ -238,12 +238,12 @@ transition: all 0.5s ease-in-out 0s;
 
 .mb-30 {
   margin-bottom: 8px;
-  background-color: #EAEAEA;
+  background-color: #000000;
   letter-spacing: 0px;
   line-height: 32px;
   float: left;
   font-size: 16px;
-  color: #000000;
+  color: #ffffff;
   border: 8px;
   padding: 0 0px 0;
   border-radius: 0px 0px 0px 0px;
@@ -265,7 +265,7 @@ transition: all 0.5s ease-in-out 0s;
   right: 16px;
   bottom: 16px;
   z-index: 996;
-  background: #000000;
+  background: #ffffff;
   width: 40px;
   height: 40px;
   border-radius: 0px 16px 0px 16px;
@@ -274,13 +274,13 @@ transition: all 0.5s ease-in-out 0s;
 
 .back-to-top i {
   font-size: 32px;
-  color: #E3E0D7;
+  color: #000000;
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #009999;
-  color: #E3E0D7;
+  background: #D9FC67;
+  color: #000000;
 }
 
 .back-to-top.active {
@@ -295,7 +295,7 @@ transition: all 0.5s ease-in-out 0s;
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
-  background-color: #E3E0D7;
+  background-color: #000000;
 
   top: 100%;
   box-shadow: 0px 4px 24px rgba(0, 0, 0, 0);
@@ -365,7 +365,7 @@ transition: all 0.5s ease-in-out 0s;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 500;
-  color: #747474;
+  color: #ffffff;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -382,7 +382,7 @@ transition: all 0.5s ease-in-out 0s;
 .navbar .active:focus,
 .navbar li:hover>a {
   color: #000000;
-  background-color: #dccd2c00;
+  background-color: #D9FC67;
   border: 1px solid #000000;
   padding: 0.5em 0.5em 0.5em 0.5em;
   margin-left: 1em;
@@ -733,15 +733,18 @@ z-index: -1;
 #about {
   width: 100%;
   height: auto;
-  background: #E3E0D7;
+  background: #000000;
   padding-top: 132px;
 }
 
 #about .div-img-bg {
   padding-bottom: 24px;
-  border: 16px solid #009999;
+border: 16px solid #D9FC67;
   border-radius: 0px 16px 0px 16px;
-  background-color: #009999;
+  /*background-color: #D9FC67;*/
+  
+  
+  
   
 }
 
@@ -805,7 +808,7 @@ border-radius: 4px;
 }
 .timeline-wrapper:before {
   content: "";
-  background: #000000;
+  background: #D9FC67;
   width: 4px;
   height: 100%;
   position: absolute;
@@ -813,7 +816,7 @@ border-radius: 4px;
 }
 
 .timeline-yr {
-  background: #000000;
+  background: #131313;
   border-radius: 0px 16px 0px 16px;
   position: absolute;
   width: 72px;
@@ -860,7 +863,7 @@ font-size: 24px;
 
 
 #services {
-  background: #EAEAEA;
+  background: #000000;
   position: relative;
   padding-bottom: 8px;
 }
@@ -911,7 +914,7 @@ font-size: 24px;
 #portfolio {
   position: relative;
   padding-bottom: 48px;
-  background-color: #E3E0D7;
+  background-color: #000000;
 
 
 
@@ -936,15 +939,15 @@ font-size: 24px;
   font-weight: 500;
   line-height: 1;
   text-transform: uppercase;
-  color: #000000;
+  color: #ffffff;
   margin-bottom: 4px;
   transition: all 0.3s ease-in-out;
 }
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  color: #ffffff;
-  background-color: #000000;
+  color: #000000;
+  background-color: #D9FC67;
   border-radius:0px 8px 0px 8px;
 }
 
@@ -962,7 +965,7 @@ font-size: 24px;
 
   border: 8px;
 
-  background-color: #000000;
+  background-color: #1C1C1C;
   padding: 16px 16px 132px 16px;
   border-radius: 0px 16px 0px 16px;
 
@@ -978,7 +981,7 @@ font-size: 24px;
   bottom: 0;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: #c0b9b900;
+  background: #1C1C1C;
   padding-bottom: 32px;
 
 
@@ -1014,9 +1017,9 @@ font-size: 24px;
 
 .project {
 
-  background-color: #E3E0D7;
+  background-color: #000000;
   padding: 16px 16px 16px;
-  color: #000000;
+  color: #ffffff;
   font-size: 12px;
 border-radius: 0px 16px 0px 16px;
 
@@ -1171,7 +1174,7 @@ font-size: 16px;
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #EAEAEA;
+  background: #000000;
   padding-top: 8px;
   padding-bottom: 16px;
   font-family: sans-serif;
@@ -1196,7 +1199,7 @@ font-size: 16px;
 
 #footer .socials-media ul li a {
   font-size: 24px;
-  color: #000000;
+  color: #D9FC67;
   letter-spacing: 0.1em;
   font-weight: 500;
   background: transparent;
