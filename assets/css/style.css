@@ -69,7 +69,7 @@ mark {
 
 
 body {
-  background: #000000;
+  background: #EAEAEA;
   color: #000000;
   font-family: "Kanit", sans-serif;
 
@@ -167,7 +167,7 @@ p {
 .btn:hover,
 .btn:focus {
   color: #000000;
-  background-color: #dccd2ccf;
+  background-color: #EAEAEA;
 border: 2px solid #000000;
 padding: 0.5em 0.5em 0.5em 0.5em;
 transition: all 0.4s ease-in-out 0s;
@@ -237,16 +237,16 @@ transition: all 0.5s ease-in-out 0s;
 }
 
 .mb-30 {
-  margin-bottom: 24px;
+  margin-bottom: 8px;
   background-color: #EAEAEA;
-  letter-spacing: 2px;
+  letter-spacing: 0px;
   line-height: 32px;
   float: left;
   font-size: 16px;
   color: #000000;
   border: 8px;
-  padding: 0 24px 0;
-  border-radius: 0px 16px 0px 16px;
+  padding: 0 0px 0;
+  border-radius: 0px 0px 0px 0px;
   font-family: "Kanit", sans-serif;
   text-transform: capitalize;
 }
@@ -279,7 +279,7 @@ transition: all 0.5s ease-in-out 0s;
 }
 
 .back-to-top:hover {
-  background: #3a350047;
+  background: #009999;
   color: #E3E0D7;
 }
 
@@ -747,7 +747,7 @@ z-index: -1;
 
 #about .div-img-bg .about-img img {
   width: 100%;
-  box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, 0.203);
+  box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, 0);
   margin-top: -32px;
   margin-left: 48px;
   height: 396px;
@@ -763,10 +763,11 @@ z-index: -1;
   font-weight: 500;
   text-align: left;
   line-height: 32px;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   max-width: 100%;
   padding-top: 32px;
   padding-bottom: 24px;
+  text-transform: capitalize;
  
 
 
@@ -1070,13 +1071,11 @@ border-radius: 0px 16px 0px 16px;
 --------------------------------------------------------------*/
 .num{
 
-  padding: 0.5em 0.5em 0.5em 0.5em;
   font-size: 16px;
 
 }
 .emali1{
 
-padding: 0.5em 0.5em 0.5em 0.5em;
 font-size: 16px;
 
 }
@@ -1173,8 +1172,8 @@ font-size: 16px;
 --------------------------------------------------------------*/
 #footer {
   background: #EAEAEA;
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding-top: 8px;
+  padding-bottom: 16px;
   font-family: sans-serif;
 
 }
@@ -1206,7 +1205,7 @@ font-size: 16px;
 }
 
 #footer .socials-media ul li a:hover {
-  color: #DCCC2C;
+  color: #009999;
   transition: all 0.5s ease-in-out 0s;
 }
 
