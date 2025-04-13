@@ -1,0 +1,209 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="5170" viewBox="0 0 1920 5170">
+  <defs>
+    <filter id="d" x="142.799" y="1104" width="58" height="94" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="a" x="121" y="1104" width="55" height="94" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Web">
+      <rect width="1920" height="5170"/>
+    </clipPath>
+  </defs>
+  <g id="Web" clip-path="url(#clip-Web)">
+    <rect width="1920" height="5170" fill="#e3e0d7"/>
+    <g id="Footer" transform="translate(0 1081)">
+      <rect id="Rectangle_46" data-name="Rectangle 46" width="1920" height="400" transform="translate(0 3689)" fill="#e3e0d7"/>
+      <g id="Media">
+        <text id="Twitter" transform="translate(806.791 3853.887)" font-size="18" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Twitter</tspan></text>
+        <text id="instagram" transform="translate(1027.209 3853.887)" font-size="18" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">instagram</tspan></text>
+        <text id="Github" transform="translate(916.641 3853.887)" font-size="18" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Github</tspan></text>
+      </g>
+      <text id="_Copyrights_._All_rights_reserved." data-name="© Copyrights . All rights reserved." transform="translate(779.297 3971.377)" font-size="23" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">© Copyrights . All rights reserved.</tspan></text>
+      <text id="Designed_by_BootstrapMade_Edit_by_Ahmed" data-name="Designed by BootstrapMade Edit by Ahmed" transform="translate(721.5 4028.617)" font-size="23" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Designed by BootstrapMade Edit by Ahmed</tspan></text>
+    </g>
+    <g id="End_message_and_contact_info" data-name="End message and contact info" transform="translate(0 1081)">
+      <rect id="Rectangle_47" data-name="Rectangle 47" width="1920" height="812" transform="translate(0 2877)"/>
+      <rect id="Rectangle_43" data-name="Rectangle 43" width="950" height="145" rx="10" transform="translate(140 3012)" fill="#e3e0d7"/>
+      <text id="I_m_glad_you_came_to_my_website._I_d_love_to_talk_with_you_and_understand_how_I_can_help_with_your_project._Let_s_work_together_to_achieve_something._" data-name="I&apos;m glad you came to my website. I&apos;d love to talk with 
+you and understand how I can help with your project. 
+Let&apos;s work together to achieve something.
+
+" transform="translate(167 3054)" font-size="35" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">I&apos;m glad you came to my website. I&apos;d love to talk with </tspan><tspan x="0" y="40">you and understand how I can help with your project. </tspan><tspan x="0" y="80">Let&apos;s work together to achieve something.</tspan><tspan x="0" y="120"></tspan><tspan font-family="Helvetica-Bold, Helvetica"><tspan x="0" y="160"></tspan></tspan></text>
+      <g id="Message_btn" data-name="Message btn" transform="translate(-1380 3163)">
+        <g id="Rectangle_35" data-name="Rectangle 35" transform="translate(1520 31)" fill="#099" stroke="#707070" stroke-width="1">
+          <rect width="232" height="64" rx="3" stroke="none"/>
+          <rect x="0.5" y="0.5" width="231" height="63" rx="2.5" fill="none"/>
+        </g>
+        <text id="MESSAGE_ME" data-name="MESSAGE ME" transform="translate(1532 73)" fill="#fff" font-size="30" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">MESSAGE ME</tspan></text>
+      </g>
+      <rect id="Rectangle_44" data-name="Rectangle 44" width="276" height="63" transform="translate(140 3333)" fill="#e28d90"/>
+      <rect id="Rectangle_45" data-name="Rectangle 45" width="386" height="63" transform="translate(140 3427)" fill="#a0d4a5"/>
+      <text id="_966_555555557" data-name="+966 555555557" transform="translate(146 3378)" font-size="35" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">+966 555555557</tspan></text>
+      <text id="_00dev.sec_gmail.com" data-name="00dev.sec@gmail.com" transform="translate(147 3472)" font-size="35" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">00dev.sec@gmail.com</tspan></text>
+    </g>
+    <g id="Mem_section" data-name="Mem section" transform="translate(0 1081)">
+      <g id="Mem_Nav" data-name="Mem Nav" transform="translate(17.5 -54)">
+        <text id="My_Memories" data-name="My Memories" transform="translate(736.5 1220)" font-size="62" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">MY MEMORIES</tspan></text>
+        <rect id="Rectangle_40" data-name="Rectangle 40" width="442" height="7" transform="translate(740.5 1194)" fill="#099"/>
+        <g id="Rectangle_41" data-name="Rectangle 41" transform="translate(512 1314)" stroke="#707070" stroke-width="1">
+          <rect width="88" height="47" rx="5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="87" height="46" rx="4.5" fill="none"/>
+        </g>
+        <text id="ALL" transform="translate(532.5 1346)" fill="#fff" font-size="25" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">ALL</tspan></text>
+        <text id="APP" transform="translate(654.5 1346)" font-size="25" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">APP</tspan></text>
+        <text id="design" transform="translate(778.5 1346)" font-size="25" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">DESIGN</tspan></text>
+        <text id="Web-2" data-name="Web" transform="translate(948 1346)" font-size="25" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">WEB</tspan></text>
+        <text id="some_Photographer" data-name="some Photographer" transform="translate(1079 1346)" font-size="25" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">SOME PHOTOGRAPHER</tspan></text>
+      </g>
+      <g id="Mem_View" data-name="Mem View">
+        <g id="Photo" transform="translate(699.621 1394)">
+          <rect id="Rectangle_36" data-name="Rectangle 36" width="520" height="619" rx="3" transform="translate(0.379)"/>
+          <g id="Rectangle_37" data-name="Rectangle 37" transform="translate(22.379 18)" fill="#797979" stroke="#707070" stroke-width="1">
+            <rect width="477" height="443" stroke="none"/>
+            <rect x="0.5" y="0.5" width="476" height="442" fill="none"/>
+          </g>
+          <rect id="Rectangle_42" data-name="Rectangle 42" width="244" height="50" transform="translate(0.379 537)" fill="#e3e0d7"/>
+          <text id="App-2" data-name="App" transform="translate(16.379 514)" fill="#fff" font-size="43" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">App</tspan></text>
+          <text id="View_Project" data-name="View Project" transform="translate(21.379 572)" font-size="24" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">View Project</tspan></text>
+        </g>
+        <g id="Photo-2" data-name="Photo" transform="translate(1257.621 1394)">
+          <rect id="Rectangle_36-2" data-name="Rectangle 36" width="520" height="619" rx="3" transform="translate(0.379)"/>
+          <g id="Rectangle_37-2" data-name="Rectangle 37" transform="translate(22.379 18)" fill="#646464" stroke="#707070" stroke-width="1">
+            <rect width="477" height="443" stroke="none"/>
+            <rect x="0.5" y="0.5" width="476" height="442" fill="none"/>
+          </g>
+          <rect id="Rectangle_42-2" data-name="Rectangle 42" width="244" height="50" transform="translate(0.379 537)" fill="#e3e0d7"/>
+          <text id="App-3" data-name="App" transform="translate(16.379 514)" fill="#fff" font-size="43" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">App</tspan></text>
+          <text id="View_Project-2" data-name="View Project" transform="translate(21.379 572)" font-size="24" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">View Project</tspan></text>
+        </g>
+        <g id="Photo-3" data-name="Photo" transform="translate(141.621 1394)">
+          <rect id="Rectangle_36-3" data-name="Rectangle 36" width="520" height="619" rx="3" transform="translate(0.379)"/>
+          <g id="Rectangle_37-3" data-name="Rectangle 37" transform="translate(22.379 18)" fill="#6e6e6e" stroke="#707070" stroke-width="1">
+            <rect width="477" height="443" stroke="none"/>
+            <rect x="0.5" y="0.5" width="476" height="442" fill="none"/>
+          </g>
+          <rect id="Rectangle_42-3" data-name="Rectangle 42" width="244" height="50" transform="translate(0.379 537)" fill="#e3e0d7"/>
+          <text id="App-4" data-name="App" transform="translate(16.379 514)" fill="#fff" font-size="43" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">App</tspan></text>
+          <text id="View_Project-3" data-name="View Project" transform="translate(21.379 572)" font-size="24" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">View Project</tspan></text>
+        </g>
+        <g id="Photo-4" data-name="Photo" transform="translate(141.621 2100)">
+          <rect id="Rectangle_36-4" data-name="Rectangle 36" width="520" height="619" rx="3" transform="translate(0.379)"/>
+          <g id="Rectangle_37-4" data-name="Rectangle 37" transform="translate(22.379 18)" fill="#7c7c7c" stroke="#707070" stroke-width="1">
+            <rect width="477" height="443" stroke="none"/>
+            <rect x="0.5" y="0.5" width="476" height="442" fill="none"/>
+          </g>
+          <rect id="Rectangle_42-4" data-name="Rectangle 42" width="244" height="50" transform="translate(0.379 537)" fill="#e3e0d7"/>
+          <text id="App-5" data-name="App" transform="translate(16.379 514)" fill="#fff" font-size="43" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">App</tspan></text>
+          <text id="View_Project-4" data-name="View Project" transform="translate(21.379 572)" font-size="24" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">View Project</tspan></text>
+        </g>
+        <g id="Photo-5" data-name="Photo" transform="translate(699.621 2100)">
+          <rect id="Rectangle_36-5" data-name="Rectangle 36" width="520" height="619" rx="3" transform="translate(0.379)"/>
+          <g id="Rectangle_37-5" data-name="Rectangle 37" transform="translate(22.379 18)" fill="#737373" stroke="#707070" stroke-width="1">
+            <rect width="477" height="443" stroke="none"/>
+            <rect x="0.5" y="0.5" width="476" height="442" fill="none"/>
+          </g>
+          <text id="Photo-6" data-name="Photo" transform="translate(17.379 539)" fill="#fff" font-size="43" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Photo</tspan></text>
+        </g>
+        <g id="Photo-7" data-name="Photo" transform="translate(1257.621 2100)">
+          <rect id="Rectangle_36-6" data-name="Rectangle 36" width="520" height="619" rx="3" transform="translate(0.379)"/>
+          <g id="Rectangle_37-6" data-name="Rectangle 37" transform="translate(22.379 18)" fill="#6b6b6b" stroke="#707070" stroke-width="1">
+            <rect width="477" height="443" stroke="none"/>
+            <rect x="0.5" y="0.5" width="476" height="442" fill="none"/>
+          </g>
+          <text id="Photo-8" data-name="Photo" transform="translate(17.379 539)" fill="#fff" font-size="43" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Photo</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="About" transform="translate(-2 1120)">
+      <g id="Photo-9" data-name="Photo">
+        <g id="Rectangle_37-7" data-name="Rectangle 37" transform="translate(164 260)" stroke="#707070" stroke-width="1">
+          <rect width="505" height="467" stroke="none"/>
+          <rect x="0.5" y="0.5" width="504" height="466" fill="none"/>
+        </g>
+      </g>
+      <g id="Message_btn-2" data-name="Message btn" transform="translate(-690 568)">
+        <g id="Rectangle_35-2" data-name="Rectangle 35" transform="translate(1520 31)" fill="#099" stroke="#707070" stroke-width="1">
+          <rect width="183" height="51" rx="3" stroke="none"/>
+          <rect x="0.5" y="0.5" width="182" height="50" rx="2.5" fill="none"/>
+        </g>
+        <text id="MESSAGE_ME-2" data-name="MESSAGE ME" transform="translate(1529 63)" fill="#fff" font-size="23" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">MESSAGE ME</tspan></text>
+      </g>
+      <text id="Glad_you_re_here_I_m_Ahmed_a_UX_UI_designer_who_enjoys_clean_simple_and_unique_design._and_my_favorite_cars_is_the_GMC_savana_CHEVY_Express_Explorer_Sport._" data-name="Glad you&apos;re here! I&apos;m Ahmed, a UX/UI designer who enjoys clean, simple, 
+and unique design. and my favorite cars is the GMC savana &amp; CHEVY 
+Express Explorer Sport. " transform="translate(830 424)" font-size="28" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Glad you&apos;re here! I&apos;m Ahmed, a UX/UI designer who enjoys clean, simple, </tspan><tspan x="0" y="32">and unique design. and my favorite cars is the GMC savana &amp; CHEVY </tspan><tspan x="0" y="64">Express Explorer Sport. </tspan></text>
+    </g>
+    <g id="Nav" transform="translate(0 1081)">
+      <rect id="Rectangle_34" data-name="Rectangle 34" width="1920" height="137" fill="#e3e0d7"/>
+      <g id="logo" transform="translate(130 32)" style="isolation: isolate">
+        <rect id="Rectangle_24" data-name="Rectangle 24" width="98.517" height="54.499" rx="1" transform="translate(0.629 16.35)"/>
+        <rect id="Rectangle_31" data-name="Rectangle 31" width="60.997" height="7.127" transform="translate(33.747 53.87)" fill="#099"/>
+        <g transform="matrix(1, 0, 0, 1, -130, -1113)" filter="url(#d)">
+          <text id="d-2" data-name="d" transform="translate(151.8 1172)" fill="#eaeaea" font-size="57" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">D</tspan></text>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -130, -1113)" filter="url(#a)">
+          <text id="a-2" data-name="a" transform="translate(130 1172)" fill="#fff" font-size="57" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">A</tspan></text>
+        </g>
+      </g>
+      <g id="Message_btn-3" data-name="Message btn" transform="translate(1577.952 40)">
+        <g id="Rectangle_35-3" data-name="Rectangle 35" transform="translate(0.048)" fill="#099" stroke="#707070" stroke-width="1">
+          <rect width="202" height="58" rx="3" stroke="none"/>
+          <rect x="0.5" y="0.5" width="201" height="57" rx="2.5" fill="none"/>
+        </g>
+        <text id="MESSAGE_ME-3" data-name="MESSAGE ME" transform="translate(9.048 40)" fill="#fff" font-size="27" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">MESSAGE ME</tspan></text>
+      </g>
+      <g id="Nav_sec" data-name="Nav sec" transform="translate(1042 54.51)">
+        <text id="Home" transform="translate(0 21.49)" fill="#707070" font-size="22" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">HOME</tspan></text>
+        <text id="About-2" data-name="About" transform="translate(94 23.49)" fill="#707070" font-size="23" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">ABOUT</tspan></text>
+        <text id="My_Memories-2" data-name="My Memories" transform="translate(201 22.49)" fill="#707070" font-size="22" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">MY MEMORIES</tspan></text>
+        <text id="Services" transform="translate(393 22.49)" fill="#707070" font-size="22" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">SERVICES</tspan></text>
+        <g id="Rectangle_48" data-name="Rectangle 48" transform="translate(-18 -10.51)" fill="rgba(255,255,255,0)" stroke="#000" stroke-width="1">
+          <rect width="105" height="48" stroke="none"/>
+          <rect x="0.5" y="0.5" width="104" height="47" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="Hero">
+      <g id="Rectangle_49" data-name="Rectangle 49" fill="#eaeaea" stroke="#707070" stroke-width="1">
+        <rect width="1920" height="1037" stroke="none"/>
+        <rect x="0.5" y="0.5" width="1919" height="1036" fill="none"/>
+      </g>
+      <g id="Polygon_1" data-name="Polygon 1" transform="translate(1050 437) rotate(90)" fill="#fff">
+        <path d="M 207.1336669921875 179.5 L 0.8663303852081299 179.5 L 104 0.9994180202484131 L 207.1336669921875 179.5 Z" stroke="none"/>
+        <path d="M 104 1.9989013671875 L 1.732696533203125 179 L 206.2673034667969 179 L 104 1.9989013671875 M 104 0 L 208 180 L 0 180 L 104 0 Z" stroke="none" fill="#000"/>
+      </g>
+      <g id="Message_btn-4" data-name="Message btn" transform="translate(-1380 635)">
+        <g id="Rectangle_35-4" data-name="Rectangle 35" transform="translate(1520 31)" fill="#099" stroke="#707070" stroke-width="1">
+          <rect width="183" height="51" rx="3" stroke="none"/>
+          <rect x="0.5" y="0.5" width="182" height="50" rx="2.5" fill="none"/>
+        </g>
+        <text id="MESSAGE_ME-4" data-name="MESSAGE ME" transform="translate(1529 63)" fill="#fff" font-size="23" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">MESSAGE ME</tspan></text>
+      </g>
+      <g id="Media-2" data-name="Media" transform="translate(-666.791 -3225)">
+        <text id="Twitter-2" data-name="Twitter" transform="translate(806.791 3853.887)" font-size="18" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Twitter</tspan></text>
+        <text id="instagram-2" data-name="instagram" transform="translate(1027.209 3853.887)" font-size="18" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">instagram</tspan></text>
+        <text id="Github-2" data-name="Github" transform="translate(916.641 3853.887)" font-size="18" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Github</tspan></text>
+      </g>
+      <g id="H1_And_P" data-name="H1 And P">
+        <text id="I_m_Ahmed_a_Designer_Freelancer" data-name="I&apos;m Ahmed a &gt; Designer &gt; Freelancer" transform="translate(140 574)" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">I&apos;m Ahmed a &gt; Designer &gt; Freelancer</tspan></text>
+        <text id="let_s_Designing_Tomorrow_s_Digital_Experiences_Today_" data-name="let&apos;s Designing Tomorrow&apos;s Digital 
+Experiences Today|" transform="translate(140 412)" font-size="45" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">let&apos;s Designing Tomorrow&apos;s Digital </tspan><tspan x="0" y="60">Experiences Today|</tspan></text>
+      </g>
+      <g id="Down">
+        <g id="Ellipse_7" data-name="Ellipse 7" transform="translate(164 784)" fill="none" stroke="#000" stroke-width="1">
+          <circle cx="36.5" cy="36.5" r="36.5" stroke="none"/>
+          <circle cx="36.5" cy="36.5" r="36" fill="none"/>
+        </g>
+        <text id="_" data-name="&gt;" transform="translate(188 807) rotate(90)" font-size="41" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">&gt;</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
