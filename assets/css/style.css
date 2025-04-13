@@ -148,12 +148,12 @@ p {
 }
 
 .btn {
-  background: #D9FC67;
+  background: #C8A638;
   
   border-radius: 4px;
   color: #000000;
   font-size: 16px;
-  border: 2px solid #D9FC67;
+  border: 2px solid #C8A638;
   height: 40px;
   
   
@@ -184,7 +184,7 @@ border: 2px solid#B0C85C;
   border: medium none;
   
   border-radius: 10px;
-  color: #D9FC67;
+  color: #C8A638;
   font-size: 40px;
   height: 24px;
   
@@ -268,7 +268,7 @@ border: 2px solid#B0C85C;
   background: #ffffff;
   width: 40px;
   height: 40px;
-  border-radius: 0px 16px 0px 16px;
+  border-radius: 0px 8px 0px 8px;
   transition: all 0.4s;
 }
 
@@ -663,7 +663,7 @@ z-index: -1;
  
 }
 .hero-content .list-social li i {
-  color: #D9FC67;
+  color: #ffffff;
   font-size: 24px;
   
 }
@@ -970,10 +970,10 @@ font-size: 24px;
 .img-fluid {
   margin-top: 16px;
 
-  border: 1px solid #fcfcfc0a;
+  border: 1px solid #1C3B2B;
   
 
-  background-color: #1C1C1C;
+  background-color: #1C3B2B;
   padding: 16px 16px 132px 16px;
   border-radius: 0px 8px 0px 8px ;
 
@@ -989,7 +989,7 @@ font-size: 24px;
   bottom: 0;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: #1C1C1C;
+  background: #1C3B2B;
   padding-bottom: 32px;
 
 
