@@ -31,9 +31,9 @@
 
 .arrow2 {
   text-align: center;
-  color: #ffffff;
+  color: #B0C85C;
   font-size: 32px;
-  margin-top: 116px;
+  margin-top: 162px;
   
 }
 
@@ -148,12 +148,12 @@ p {
 }
 
 .btn {
-  background: #C8A638;
+  background: #000000;
   
   border-radius: 4px;
-  color: #000000;
+  color: #B0C85C;
   font-size: 16px;
-  border: 2px solid #C8A638;
+  border: 2px solid #B0C85C;
   height: 40px;
   
   
@@ -164,10 +164,10 @@ p {
 
 .btn:hover,
 .btn:focus {
-  color: #B0C85C;
-
+  color: #0e0e0e;
+background-color: #C8A638;
 border-radius: 4px;
-border: 2px solid#B0C85C;
+border: 2px solid#C8A638;
 
   
 }
@@ -184,7 +184,7 @@ border: 2px solid#B0C85C;
   border: medium none;
   
   border-radius: 10px;
-  color: #C8A638;
+  color: #B0C85C;
   font-size: 40px;
   height: 24px;
   
@@ -617,7 +617,7 @@ z-index: -1;
 
 
 #hero .hero-content {
-  margin-top: 188px;
+  margin-top: 248px;
   text-align: left;
   width: 100%;
   display: flex;
@@ -765,17 +765,26 @@ border: 16px solid #B0C85C;
 
 }
 
+#about .about-descr .h-heading {
+
+
+padding-top: 24px;
+text-transform: capitalize;
+
+
+}
+
+
 #about .about-descr .p-heading {
   font-family:  "Kanit", sans-serif;
   font-size: 20px;
   font-weight: 500;
   text-align: left;
   line-height: 32px;
-  letter-spacing: 0px;
   max-width: 100%;
-  padding-top: 32px;
+  padding-top: 8px;
   padding-bottom: 24px;
-  text-transform: capitalize;
+  text-transform: lowercase;
  
 
 
@@ -870,7 +879,7 @@ font-size: 24px;
 #services {
   background: #000000;
   position: relative;
-  padding-bottom: 8px;
+  padding-bottom: 0px;
 }
 
 .services-block span {
@@ -918,7 +927,7 @@ font-size: 24px;
 --------------------------------------------------------------*/
 #portfolio {
   position: relative;
-  padding-bottom: 48px;
+  padding-bottom: 4px;
   background-color: #000000;
 
 
@@ -962,18 +971,18 @@ font-size: 24px;
 }
 
 #portfolio .portfolio-item {
-  margin-bottom: 32px;
+  margin-bottom: 3px;
 
 }
 
 .img-fluid {
-  margin-top: 16px;
+  margin-top: 24px;
 
-  border: 1px solid #1C3B2B;
+  border: 4px solid #1C3B2B;
   
 
   background-color: #1C3B2B;
-  padding: 16px 16px 132px 16px;
+  padding: 8px 8px 116px 8px;
   border-radius: 0px 8px 0px 8px ;
 
 
@@ -983,13 +992,13 @@ font-size: 24px;
   opacity: 1;
   position: absolute;
 
-  left: 32px;
+  left: 16px;
   right: 16px;
   bottom: 0;
-  z-index: 3;
+  z-index: 1;
   transition: all ease-in-out 0.3s;
   background: #1C3B2B;
-  padding-bottom: 32px;
+  padding-bottom: 24px;
 
 
 
@@ -1004,7 +1013,7 @@ font-size: 24px;
   margin-bottom: 8px;
   text-align: left;
   padding-top: 8px;
-  padding-left: 8px;
+  padding-left: 24px;
   font-family: "Kanit", sans-serif;
   margin-left: -8px;
 }
@@ -1014,7 +1023,7 @@ font-size: 24px;
   font-size: 16px;
   margin: 0;
   text-align: left;
-  padding-left: 16px;
+  padding-left: 32px;
   width: 264px;
   font-family: "Kanit", sans-serif;
   font-weight: 300;
@@ -1028,7 +1037,7 @@ font-size: 24px;
   padding: 16px 16px 16px;
   color: #ffffff;
   font-size: 12px;
-border-radius: 0px 16px 0px 16px;
+border-radius: 0px 8px 0px 8px;
 
 
 }
