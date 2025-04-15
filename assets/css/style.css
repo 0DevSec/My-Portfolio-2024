@@ -56,7 +56,7 @@ mark {
   background: transparent;
   background-image: linear-gradient(
     to right,
-    rgba(0, 0, 0, 0),
+    rgba(255, 255, 255, 0.359),
     rgba(217, 252, 103, 1) 4%,
     rgb(101, 101, 101)
   );
@@ -1193,7 +1193,7 @@ font-size: 16px;
   background: #000000;
   padding-top: 8px;
   padding-bottom: 16px;
-  font-family: sans-serif;
+  font-family: "Kanit", sans-serif;
 
 }
 
@@ -1211,26 +1211,29 @@ font-size: 16px;
   float: left;
   margin-left: 8px;
   margin-right: 8px;
+  padding: 8px 8px 24px 8px ;
 }
 
 #footer .socials-media ul li a {
-  font-size: 24px;
+  font-size: 16px;
   color: #D9FC67;
-  letter-spacing: 0.1em;
+  letter-spacing: 0em;
   font-weight: 500;
   background: transparent;
+  border: 2px solid #D9FC67;
+  border-radius: 0px 4px 0px 4px;
+  padding: 4px 4px 4px 4px ;
   text-transform: uppercase;
   transition: all 0.5s ease-in-out 0s;
 }
 
 #footer .socials-media ul li a:hover {
-  color: #B0C85C;
+  color: #C8A638;
   transition: all 0.5s ease-in-out 0s;
 }
 
 #footer p {
   font-size: 16px;
-  letter-spacing: 0.1em;
   font-weight: 500;
   margin-top: 0;
   text-transform: uppercase;
